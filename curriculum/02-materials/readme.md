@@ -244,7 +244,7 @@ $('li')     or      $('#firstParagraph')
 
 ```
 
-- The dollar sign specifies that you are using jQuery, what goes inside the parantheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
+- The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
 - You manipulate or work with a certain element by doing the following: 
 
 ```
@@ -269,7 +269,7 @@ $('h1').html('Content to insert goes here');
 >
 	- Clone the project from GitHub
 	- Open the entire project folder in editor
-	- Point out that the script tags linking your external JavaScript file and linking the jQuery libary have already been added
+	- Point out that the script tags linking your external JavaScript file and linking the jQuery library have already been added
 	- Type out the solution as students watch you:
 >
 > // 1. Remove the highlight class from #box2 (use the .removeClass() method)
