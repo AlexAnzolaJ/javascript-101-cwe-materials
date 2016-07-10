@@ -149,7 +149,7 @@ age = 30;
 
 > **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way, where you do not have to repeat the word var?"
 > 
-> Answer: When you declare a variable, you great the box and you can store a value in there. When you want to swap out that value for another one, the box already exists. 
+> Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists. 
 > 
 
 - What can be stored in variables?
@@ -309,7 +309,7 @@ $('h1').fadeOut(200);
 
 ```
 
-- With jQuery you can also add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered. 
+- Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered. 
 - Example:
 
 ```
