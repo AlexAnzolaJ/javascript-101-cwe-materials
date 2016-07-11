@@ -1,6 +1,6 @@
 ---
 title: JavaScript 101
-duration: "2:20"
+duration: "2:00"
 creator:
     name: Melody Serra
     city: San Francisco
