@@ -1,12 +1,12 @@
 ---
 title: JavaScript 101
-duration: "2:30"
+duration: "2:20"
 creator:
     name: Melody Serra
     city: San Francisco
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) JavaScript 101 
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) JavaScript 101
 
 
 ### LEARNING OBJECTIVES
@@ -23,14 +23,14 @@ creator:
 
 - Install Sublime Text 3 on your computer.
 - Have Google Chrome on your computer.
-- Complete DASH Project 1 
+- Complete DASH Project 1
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
 
 - Have students install Sublime Text 3 on to computer.
 - Write learning objectives on board.
-- Make sure wifi network and password  (GA Guest, yellowpencil)  is written on board, since students will need to be online to use codepen.io.
+- Make sure wifi network and password (GA Guest, yellowpencil) is written on board, since students will need to be online to use codepen.io.
 
 ---
 <a name="opening"></a>
@@ -39,107 +39,88 @@ creator:
 - Review current lesson objectives.
 
 > You can then include a hook / real-world relevance, here is a suggestion:
-	 "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. Tonight we will be learning the building blocks that will allow you to get creative and bring your ideas to life."
-	
+	 "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. We'll be learning the building blocks that will allow you to get creative and bring your ideas to life."
+
 - Each student will share first name and answer the following question: "What brought you here tonight?."
 
 ***
 
 <a name="introduction"></a>
-## Introduction: (10 mins)
+## Introduction (10 mins)
 
-> Instructor Note: Discuss topic and explain by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
- 
+> Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
+
 
 #### Web Production Workflow:
 
 ![](assets/wp.jpg)
 
-> In this section you will be discussing the process of going from an idea to a fully developed and launched site. It is important here to include the following:
+The process of going from an idea to a fully developed and launched site is pretty cool! Just a front-end developer can't necessarily build an entire "full-stack" website that allows for the type of functionality most clients seek today such as on a e-commerce website. A full stack developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look at the web production workflow to help us understand.
 
 - UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
 - Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
 - Front End - front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End - back end developers give the website a "memory," you can briefly touch on databases, authenticating users etc.
+- Back End - back end developers give the website a "memory" with databases, authenticating users etc.
 
 #### Front End vs Back End in More Detail:
 
->
-- Describe how the front end differentiates from the back end.
-
+Sometimes it can be difficult to tell how the front end really differentiates from the back-end. Let's go into further detail to illustrate the difference between the two.
 
 - Front end: everything the user can see and interact with on a site.
-- Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered). 
+- Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
 
->
-- If time permits you can visit expedia.com and describe to students which part of the site is front end and which is back end.
+We'll mostly be focusing on JavaScript as a front end language in this lesson. So let's break down the THREE front end languages are HTML, CSS, and JavaScript.
 
-> **Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
-
-## Front End Languages: (10 mins)
-
-> In this section you will break down for students that the THREE front end languages are HTML, CSS, and JavaScript.
-
-- On the front end, the:
-	- HTML = bones
-	- CSS = skin
-	- JavaScript = brain
-- Another way to put it:
 	- HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 	- CSS = adjective (responsible for styles like color or font family)
 	- JavaScript = verb (responsible for behaviors, like drop-down menus)
-	
-> End this section by taking students to [lyft.com](https://www.lyft.com/). Show students examples of JavaScript: hover over the word “Explore” in the navigation menu, point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/).
+
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, we're able point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/).
+
+> Instructor Note: If time permits you can visit like expedia.com and describe to students which part of the site is front end and which is back end.
+
+> **Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 
 ## What is JavaScript? (15 mins)
 
-> In this section you will explain what JavaScript is and what it is used for. Start by explaining what DOM(Document Object Model) is. 
+In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for, the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
-- **Document Object Model(DOM)**: a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
+The **Document Object Model(DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
 
-- JavaScript is responsible for:
-	- the behavior of content. 
-	- interactions on the page.
-	- animations on the page. 
-	- manipulating the DOM. 
-	
-	
->  You will then transition in to the ACTIVITY: PRACTICE READING JS using this [codepen](http://codepen.io/nevan/pen/shtLA).  The directions in the slide read as follows:
-> 
-> 1. Let’s visit this  codepen together
-2. Turn to someone next to you and as a team try to figure out on a high level what is happening
-3. With your partner try to make it so that the slow button changes the bulb to yellow
-4. With your partner try to make it so that the go button works
-5. This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet
+Let's practice reading some JavaScript in this PRACTICE READING JS using this [codepen](http://codepen.io/nevan/pen/shtLA). The directions in the slide read as follows:
+
+Visit this  codepen together
+1. Turn to someone next to you and as a team try to figure out on a high level what is happening
+2. With your partner try to make it so that the slow button changes the bulb to yellow
+3. With your partner try to make it so that the go button works
+4. This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet
 >
->When students finish this, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to making it so that the slow button changes the bulb to yellow, and the go button works. 
+>Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to making it so that the slow button changes the bulb to yellow, and the go button works.
 
 ## Intro to Pseudo Code (10 mins)
 
-Pseudo Code is:
+Before we start writing any JavScript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
 
-- A way to 'plan out' your program before coding it.
-- A detailed yet readable description of what a computer program must do.
-- Expressed in plain english.
+> **Check**: "Why do you think it is important to plan out your program before coding it?"
 
-> **Check**: "Why do you think it is important to plan out your program before coding it?" 
+## Coding JavScript: Variables (15 minutes)
+
+Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
+
+The 'container' we use to store the value is called a variable.
+- A variable has a name and a value.
+- The value can change.
 
 
-## Variables (15 minutes)
-
-- We can tell our program to remember (store) values for us to use later on. 
-- The 'container' we use to store the value is called a variable. 
-- A variable has a name and a value. 
-- The value can change. 
-
-- To **declare** a variable:
+To **declare** a variable, we'll use the following syntax:
 
 ```javascript
 var age = 29;
 
 ```
-- If you want to **reassign** a variable, which means change the value of a variable, you do the following:
+
+If you want to **reassign** a variable, which means change the value of a variable, you can do the following:
 
 ```javascript
 var age = 29;
@@ -148,42 +129,42 @@ age = 30;
 ```
 
 > **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way, where you do not have to repeat the word var?"
-> 
-> Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists. 
-> 
+>
+> Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
+>
 
 - What can be stored in variables?
 	- Strings: letters and other characters enclosed in quotes
 	- Numbers: can be positive, negative, decimals
 	- Booleans: either true or false
 
-> Discuss arithmetic operators and assignment operators from slides 25-26 with students. 
-> 
+> Discuss arithmetic operators and assignment operators from slides 25-26 with students.
+>
 > At this point in the class, introduce what the "console" is and what it is used for. Model for students how to get to the console:
-> 
+>
 > 	1. Open up Google Chrome
 > 	2. Right click and go to "inspect"
 > 	3. Select "console"
 > 	4. Explain that this is a place where JavaScript is interpreted and run. You can use it to practice writing JavaScript
-> 	5. Type: 
-> 
+> 	5. Type:
+>
 > 		console.log("Hello!");
-> 
-> 		 var name = "Susan"; 
-> 
+>
+> 		 var name = "Susan";
+>
 > 		name;
 > 	6. Ask students "What data type did we store as the variable?"
 
 ## Demo: Variables (10 mins)
 
 > During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. Part 1 instructions state:
-> 
+>
 > 1. Declare a variable with the name "score". Assign it the value 3. (solution: var score = 3;)
 > 2. Update the value of score. The new value should be 6. (solution: score= 6;)
 > 3. Use console.log to print out the value of score. (solution: console.log(score);)
 
 > Students will complete Part 2 on their own. The instructions are:
-> 
+>
 > 1. Declare a variable with the name "totalAmount". Assign it the value 0.
 > 2. Update the value of totalAmount. The new value should be 10.
 > 3. Add five to the totalAmount using the += operator.
@@ -191,31 +172,31 @@ age = 30;
 
 ## JavaScript in Action (10 mins)
 
-> In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30. 
-> 
+> In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
+>
 
-- JavaScript method: ac action that can be performed on an object. 
-	- Example: 
-	
+- JavaScript method: ac action that can be performed on an object.
+	- Example:
+
 	```javascript
 		var str = "Hello World";
 		var res = str.toLowerCase();
 		// the result of res will be:
 		// hello world
-		
-	``` 
-	
+
+	```
+
 - Concatenation: to take two strings and stick them together using the + operator.
 
-- Example: 
-	
+- Example:
+
 	```javascript
 		var book = "Happy";
 		var summary = "Best book ever.";
 		var review = book + ": " + summary;
 		// Result will be: Happy: Best book ever.
-		
-	``` 
+
+	```
 
 ## How is jQuery different from JavaScript? (5 mins)
 
@@ -226,14 +207,14 @@ age = 30;
 
 	```
 	JS: document.getElementById('heading').innerHTML = "Your Name";
-	
+
 	jQuery: $('#heading').html('Your Name');
-	
+
 	```
 
 ## How does jQuery work? (15 mins)
 
-- jQuery can be used to manipulate the DOM. 
+- jQuery can be used to manipulate the DOM.
 - Manipulating the DOM is possible because with jQuery you can:
 	- select certain elements
 	- work with these elements in some way
@@ -245,7 +226,7 @@ $('li')     or      $('#firstParagraph')
 ```
 
 - The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
-- You manipulate or work with a certain element by doing the following: 
+- You manipulate or work with a certain element by doing the following:
 
 ```
  .addClass('about-me');
@@ -273,7 +254,7 @@ $('h1').html('Content to insert goes here');
 	- Type out the solution as students watch you:
 >
 > // 1. Remove the highlight class from #box2 (use the .removeClass() method)
-> 
+>
 $('#box2').removeClass('highlight');
 >
 >// 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
@@ -301,23 +282,23 @@ Part 1 - Now you try:
 
 ## How does jQuery work? (10 mins)
 
-- With jQuery you can also add effects and animations. 
-- Example: 
+- With jQuery you can also add effects and animations.
+- Example:
 
 ```
 $('h1').fadeOut(200);
 
 ```
 
-- Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered. 
+- Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered.
 - Example:
 
 ```
-$('li').on('click', function() { 
+$('li').on('click', function() {
   // your code here
 });
 
-``` 
+```
 
 > Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
 >
@@ -325,11 +306,11 @@ $('li').on('click', function() {
 	- Type out the solution as students watch you:
 >
 > 	// 1. When the anchor within #box3 is clicked
-> 
+>
 	// a) Slide toggle #box4
 >
 	// b) Fade out #box1 slowly
-> 
+>
 	$('#box2').removeClass('highlight');
 >
 >	// 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
@@ -383,7 +364,7 @@ if (age > 65) {
 
 ## Conclusion (10 mins)
 >
-- Review independent practice deliverable(s). 
+- Review independent practice deliverable(s).
 - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
 - Recap topic(s) covered in today's lesson.
 
