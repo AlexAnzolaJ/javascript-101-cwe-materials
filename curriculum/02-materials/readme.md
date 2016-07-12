@@ -193,7 +193,7 @@ age = 30;
 > In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
 >
 
-- JavaScript method: ac action that can be performed on an object.
+- JavaScript method: an action that can be performed on an object.
 	- Example:
 
 	```javascript
