@@ -123,7 +123,14 @@ Pseudo Code is:
 - A detailed yet readable description of what a computer program must do.
 - Expressed in plain english.
 
+![](assets/pc.jpg)
+
 > **Check**: "Why do you think it is important to plan out your program before coding it?" 
+> 
+> You will then transition in to ACTIVITY: PSEUDO CODE — THERMOSTAT. 
+> 
+> Instructions state:
+> Write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
 
 ## Variables (15 minutes)
