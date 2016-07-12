@@ -84,13 +84,24 @@ Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “E
 
 ## What is JavaScript? (15 mins)
 
+
+JavaScript is responsible for:
+
+	- the behavior of content
+	- interactions
+	- animations
+	- manipulating what we call the DOM
+
 In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for, the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
 The **Document Object Model(DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
 
+![](assets/dom.jpg)
+
 Let's practice reading some JavaScript in this PRACTICE READING JS using this [codepen](http://codepen.io/nevan/pen/shtLA). The directions in the slide read as follows:
 
-Visit this  codepen together
+Visit this  codepen together and:
+
 1. Turn to someone next to you and as a team try to figure out on a high level what is happening
 2. With your partner try to make it so that the slow button changes the bulb to yellow
 3. With your partner try to make it so that the go button works
@@ -100,7 +111,7 @@ Visit this  codepen together
 
 ## Intro to Pseudo Code (10 mins)
 
-Before we start writing any JavScript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
+Before we start writing any Javascript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
 
 > **Check**: "Why do you think it is important to plan out your program before coding it?"
 
@@ -111,7 +122,7 @@ Before we start writing any JavScript, we'll learn a bit about how to write pseu
 > Instructions state:
 > Write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
-## Coding JavScript: Variables (15 minutes)
+## Coding Javascript: Variables (15 minutes)
 
 Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
 
