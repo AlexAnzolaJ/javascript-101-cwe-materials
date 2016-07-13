@@ -136,7 +136,6 @@ Again, the goal is to think through the problem and break it down into simple st
 
 With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
->Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
 
 ```js
 get targetTemperature
@@ -148,14 +147,18 @@ repeat forever
     turn on heater
   if currentTemperature >= targetTemperature,
     turn off heater
-    ```
+```
 
 
 Instructor note:
+>Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
 
-## Coding Javascript: Variables and (15 minutes)
+## Coding Javascript: Demo (10 minutes)
 
 Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
+
+
+#### Variables
 
 The 'container' is what we use to store the value is called a **variable**. Remember these properties of a variable:
 - A variable has a **name** and a **value**.
@@ -176,21 +179,21 @@ age = 30;
 ```
 
 > **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way, where you do not have to repeat the word var?"
->
+
 > Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
 
+#### Data Types
 
-What can be stored in variables?
+What can be stored in variables? There are three main data types or values that we'll want to learn about here.
 
-	- Strings: groups of characters (either letters, numbers, or special characters like punctuation, spaces, or parentheses). They come in two varieties, 'single-quote' (also sometimes called 'string literals') and "double-quote". Though there are some differences between the two, don't worry about them for now. Strings are typically used to store text for people to read.
+**Strings**: groups of characters (either letters, numbers, or special characters like punctuation, spaces, or parentheses). They come in two varieties, 'single-quote' (also sometimes called 'string literals') and "double-quote". Though there are some differences between the two, don't worry about them for now. Strings are typically used to store text for people to read.
   Examples: ```'hello'```, ```'goodbye'```, ```'moc.liamg@gmail.com'```
-	- Numbers: can be positive, negative, decimals Examples: ```20, -4.5, 300, 99.99```
-	- Booleans: a data type that has a value of either ```true``` or ```false```
 
-> Discuss arithmetic operators and assignment operators from slides 25-26 with students.
+**Numbers**: can be positive, negative, decimals Examples: ```20, -4.5, 300, 99.99```
 
+**Booleans**: a data type that has a value of either ```true``` or ```false```
 
-#### Creating Variables
+#### Using the Console: Guided Practice (10 minutes)
 
 We'll be using the console to practice creating variables. It's where where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
 
@@ -215,6 +218,7 @@ To predict the types of data you're dealing with you can use ```typeof```.
 ```
 typeof 3.45;
 ```
+
 ```
 typeof true;
 ```
@@ -222,7 +226,16 @@ typeof true;
 What data types did we store as the variable? That's right string and numbers. We'll learn about Booleans later in this class.
 
 
-## Demo: Variables (10 mins)
+## Arithmetic Operators and Assignment Operators(10 mins)
+
+
+> Discuss arithmetic operators and assignment operators from slides 25-26 with students.
+
+
+ ADD content
+
+
+## Variables: Guided Practice (10 mins)
 
 > During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. Part 1 instructions state:
 >
