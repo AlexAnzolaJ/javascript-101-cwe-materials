@@ -36,31 +36,31 @@ creator:
 <a name="opening"></a>
 ## Opening (10 mins)
 
-- Review current lesson objectives.
+Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. We'll be learning the building blocks that will allow you to get creative and bring your ideas to life.
 
-> You can then include a hook / real-world relevance, here is a suggestion:
-	 "Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. We'll be learning the building blocks that will allow you to get creative and bring your ideas to life."
+#### Review Learning Objectives
 
-- Each student will share first name and answer the following question: "What brought you here tonight?."
+In this class, we'll gain an overview of the JavaScript landscape. We'll also get to coding some JavaScript, but before we do that, we'll have to understand how programs actually work. To do so, we'll learn what's called pseudocode, a way to write code in plain English. Doing so will allow us to focus on the logic of programs as opposed to being worried about syntax. We'll then write some basic JavaScript expressions. We'll also get into learning jQuery to add interactivity to our websites.
+
+#### Introductions
+
+>Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?."
 
 ***
 
 <a name="introduction"></a>
-## Introduction (10 mins)
+## Web Production Workflow: Introduction (10 mins)
 
 > Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
 
-
-#### Web Production Workflow:
+The process of going from an idea to a fully developed and launched site is pretty cool! Just a front-end developer can't necessarily build an entire "full-stack" website that allows for the type of functionality most clients seek today such as on a e-commerce website. A full stack developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look at the web production workflow to help us understand.
 
 ![](assets/wp.jpg)
 
-The process of going from an idea to a fully developed and launched site is pretty cool! Just a front-end developer can't necessarily build an entire "full-stack" website that allows for the type of functionality most clients seek today such as on a e-commerce website. A full stack developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look at the web production workflow to help us understand.
-
-- UX - user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
-- Design - designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
-- Front End - front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End - back end developers give the website a "memory" with databases, authenticating users etc.
+- UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
+- DesignL: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
+- Front End: front end developers bring the designs to life with HTML, CSS, and JS.
+- Back End: back end developers give the website a "memory" with databases, authenticating users etc.
 
 #### Front End vs Back End in More Detail:
 
@@ -71,28 +71,28 @@ Sometimes it can be difficult to tell how the front end really differentiates fr
 
 We'll mostly be focusing on JavaScript as a front end language in this lesson. So let's break down the THREE front end languages are HTML, CSS, and JavaScript.
 
-	- HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
-	- CSS = adjective (responsible for styles like color or font family)
-	- JavaScript = verb (responsible for behaviors, like drop-down menus)
+- HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
+- CSS = adjective (responsible for styles like color or font family)
+- JavaScript = verb (responsible for behaviors, like drop-down menus)
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, we're able point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/).
+#### Activity
 
-> Instructor Note: If time permits you can visit like expedia.com and describe to students which part of the site is front end and which is back end.
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, we're able point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
+- Which parts of the site are front end and which is back end?
 
-> **Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
+>**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 
 ## What is JavaScript? (15 mins)
 
+So what exactly is JavaScript and what is it responsible for? To summarize, JavaScript can be do a lot, including:
 
-JavaScript is responsible for:
-
-	- the behavior of content
-	- interactions
+	- modify the behavior of content
+	- create interactions and add functionality
 	- animations
 	- manipulating what we call the DOM
 
-In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for, the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
+In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
 The **Document Object Model(DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
 
@@ -100,7 +100,7 @@ The **Document Object Model(DOM)** is a collection of document nodes that are tr
 
 Let's practice reading some JavaScript in this PRACTICE READING JS using this [codepen](http://codepen.io/nevan/pen/shtLA). The directions in the slide read as follows:
 
-Visit this  codepen together and:
+Visit the codepen together and:
 
 1. Turn to someone next to you and as a team try to figure out on a high level what is happening
 2. With your partner try to make it so that the slow button changes the bulb to yellow
@@ -113,29 +113,58 @@ Visit this  codepen together and:
 
 Before we start writing any Javascript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
 
+Take, for example, a program that lets a player know whether he or she has passed the current level. Pseudo code for this program might look like the following:
+
+```js
+
+passingScore = 50 points
+get playerScore
+
+
+if playerScore >= passingScore
+    display message "Current level: Passed"
+otherwise
+    display message "Current level: Failed"
+```
+
+Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudo code must be written, each person's version will likely vary slightly. Indentation is often used to keep statements organized and grouped together.
+
 > **Check**: "Why do you think it is important to plan out your program before coding it?"
 
-![](assets/pc.jpg)
 
-> You will then transition in to ACTIVITY: PSEUDO CODE — THERMOSTAT. 
-> 
-> Instructions state:
-> Write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
+#### Pseudocode Activity — Thermostat.
 
-## Coding Javascript: Variables (15 minutes)
+With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
+
+>Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
+
+```js
+get targetTemperature
+targetTemperature = 72
+repeat forever
+
+  currentTemperature = get sensor reading
+  if currentTemperature < targetTemperature,
+    turn on heater
+  if currentTemperature >= targetTemperature,
+    turn off heater
+    ```
+
+
+Instructor note:
+
+## Coding Javascript: Variables and (15 minutes)
 
 Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
 
-The 'container' we use to store the value is called a variable.
-- A variable has a name and a value.
+The 'container' is what we use to store the value is called a **variable**. Remember these properties of a variable:
+- A variable has a **name** and a **value**.
 - The value can change.
-
 
 To **declare** a variable, we'll use the following syntax:
 
 ```javascript
 var age = 29;
-
 ```
 
 If you want to **reassign** a variable, which means change the value of a variable, you can do the following:
@@ -149,29 +178,49 @@ age = 30;
 > **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way, where you do not have to repeat the word var?"
 >
 > Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
->
 
-- What can be stored in variables?
-	- Strings: letters and other characters enclosed in quotes
-	- Numbers: can be positive, negative, decimals
-	- Booleans: either true or false
+
+What can be stored in variables?
+
+	- Strings: groups of characters (either letters, numbers, or special characters like punctuation, spaces, or parentheses). They come in two varieties, 'single-quote' (also sometimes called 'string literals') and "double-quote". Though there are some differences between the two, don't worry about them for now. Strings are typically used to store text for people to read.
+  Examples: ```'hello'```, ```'goodbye'```, ```'moc.liamg@gmail.com'```
+	- Numbers: can be positive, negative, decimals Examples: ```20, -4.5, 300, 99.99```
+	- Booleans: a data type that has a value of either ```true``` or ```false```
 
 > Discuss arithmetic operators and assignment operators from slides 25-26 with students.
->
-> At this point in the class, introduce what the "console" is and what it is used for. Model for students how to get to the console:
->
-> 	1. Open up Google Chrome
-> 	2. Right click and go to "inspect"
-> 	3. Select "console"
-> 	4. Explain that this is a place where JavaScript is interpreted and run. You can use it to practice writing JavaScript
-> 	5. Type:
->
-> 		console.log("Hello!");
->
-> 		 var name = "Susan";
->
-> 		name;
-> 	6. Ask students "What data type did we store as the variable?"
+
+
+#### Creating Variables
+
+We'll be using the console to practice creating variables. It's where where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
+
+1. Open up Google Chrome
+2. Right click and go to "inspect"
+3. Select "console"
+5. Type the following:
+
+```
+console.log("Hello!");
+var name = "Susan";
+name;
+```
+
+```
+var age = 18;
+age;
+```
+
+To predict the types of data you're dealing with you can use ```typeof```.
+
+```
+typeof 3.45;
+```
+```
+typeof true;
+```
+
+What data types did we store as the variable? That's right string and numbers. We'll learn about Booleans later in this class.
+
 
 ## Demo: Variables (10 mins)
 
