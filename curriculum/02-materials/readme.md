@@ -28,6 +28,7 @@ creator:
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
 
+- Have the starter code ready to go to hand out to students.
 - Have students install Sublime Text 3 on to computer.
 - Write learning objectives on board.
 - Make sure wifi network and password (GA Guest, yellowpencil) is written on board, since students will need to be online to use codepen.io.
@@ -42,9 +43,12 @@ Did you know that there are over one billion websites that are live today? You c
 
 In this class, we'll gain an overview of the JavaScript landscape. We'll also get to coding some JavaScript, but before we do that, we'll have to understand how programs actually work. To do so, we'll learn what's called pseudocode, a way to write code in plain English. Doing so will allow us to focus on the logic of programs as opposed to being worried about syntax. We'll then write some basic JavaScript expressions. We'll also get into learning jQuery to add interactivity to our websites.
 
+>Instructor Note: **You can distribute the starter code here to your class to avoid running into any issues later.**
+
 #### Introductions
 
 >Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?."
+
 
 ***
 
@@ -266,7 +270,8 @@ To recap, we have discussed two types of values—or, objects—that store data 
 
 ## Variables: Guided and Independent Practice (10 mins)
 
-> Instructor Note: During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
+
 
 Find the starter code [here](variables/js/main.js)!
 
@@ -323,15 +328,17 @@ Here's some basic syntactical differences between javascript and jQuery
 	```
 
 
-## How does jQuery work? (15 mins)
+## jQuery Syntax(15 mins)
 
-Since jQuery is a javascript file, before we start using jQuery, you need to include it in your html page. You can download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
+jQuery is a javascript file, but before you start using jQuery, you'll need to include it in our html page. Let's download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
 
+```html
 <head>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"</script>
 </head>
+```
 
-Here are some things jQuery can do:
+To reiterate, here are some things jQuery can do:
 
 - jQuery can be used to manipulate the DOM. Manipulating the DOM is possible because with jQuery you can:
 	- select certain elements
@@ -360,43 +367,47 @@ $('h1').html('Content to insert goes here');
 
 ```
 
-## jQuery: Guided and Independent Practice (10 mins)
+## jQuery: Guided Practice (10 mins)
 
-> Instructor Note: Ask students to watch you as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
->
-	- Clone the project from GitHub
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+
+Here are the steps to get started:
+
 	- Open the entire project folder in editor
-	- Point out that the script tags linking your external JavaScript file and linking the jQuery library have already been added
-	- Type out the solution as students watch you:
->
-> // 1. Remove the highlight class from #box2 (use the .removeClass() method)
->
+	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
+
+
+1. Remove the highlight class from #box2 (use the ```.removeClass()``` method)
+
+```js
 $('#box2').removeClass('highlight');
->
->// 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
->
+```
+
+2. Select the anchor within #box3. Change the HTML to 'jQuery!'
+
+```js
 $('#box3').find('a').html('jQuery!');
+```
 
 <a name="ind-practice"></a>
-## Independent Practice: jquery _code _along (5 mins)
 
+## jQuery: Independent Practice (10 mins)
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
 Here is the prompt for the deliverable:
 
-Part 1 - Now you try:
+### Part 1 - Now you try
 
-// 1. Add the .highlight class to #box4 (use the .addClass() method)
+1. Add the ```.highlight``` class to ```#box4``` (use the ```.addClass()`` method)
 
-// 2. Make the text color of the strong tag within #box2 green (use the .css() method)
+2. Make the text color of the strong tag within #box2 green (use the ```.css()``` method)
+
+**Check:** Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
-**Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
-***
-
-## How does jQuery work? (10 mins)
+## jQuery Effects and Animations (10 mins)
 
 - With jQuery you can also add effects and animations.
 - Example:
@@ -416,30 +427,32 @@ $('li').on('click', function() {
 
 ```
 
-> Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
->
+## jQuery: Guided Practice (10 mins)
+
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
+
+Here are the steps to get started:
+
 	- Open the entire project folder in editor (if closed)
 	- Type out the solution as students watch you:
->
-> 	// 1. When the anchor within #box3 is clicked
->
+
+1. When the anchor within #box3 is clicked
+
 	// a) Slide toggle #box4
->
+
 	// b) Fade out #box1 slowly
->
+
 	$('#box2').removeClass('highlight');
->
->	// 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
->
->```
-> 	$('#box3').find('a').html('jQuery!');
+
+ 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
+
+```
+ 	$('#box3').find('a').html('jQuery!');
 ```
 
 
 <a name="ind-practice"></a>
 ## Independent Practice: jquery _code _along (5 mins)
-
-
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -455,6 +468,10 @@ Part 2 - Now you try:
 
 
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
+
+
+
+
 
 ***
 
