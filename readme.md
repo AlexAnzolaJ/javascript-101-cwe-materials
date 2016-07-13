@@ -6,25 +6,27 @@ This repository/folder contains all the materials General Assembly supplies for 
 
 ## Value Proposition
 
-<!--  Taken from Confluence -->
+JavaScript 101 is a workshop for learning the basics of JavaScript and jQuery. In this hands-on introductory workshop, we will walk through JavaScript's basic capabilities and learn how to add interactivity and functionality to HTML & CSS using jQuery. Building on the foundations students take a hands-on approach to learn JavaScript's relationship to HTML and CSS to create professional, relevant applications.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Students should be familiar with basic HTML/CSS as well as functions of their computer, such as launching programs, creating folders, copying and pasting objects, formatting text, finding and saving files.
 
 #### Students Will Learn How To:
 
 <!-- a bulleted list of learning goals from Confluence -->
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Gain an overview of the JavaScript landscape and its placement in the web ecosystem.
+- Practice programmatic thinking by writing pseudo-code.
+- Write expressions that both assign and evaluate variables.
+- Explain the difference between jQuery and vanilla JS.
+- Register and trigger event handlers for jQuery events.  
 
 ---
 
 Included in this repository:
 
-1. **Onboarding Materials** - Background context & instructions for how to make use of our materials.
+1. **[Onboarding Materials](curriculum/01-onboarding)** - Background context & instructions for how to make use of our materials.
 
-2. **Teaching Materials** - Lesson plan, activities & assessment, deck, and handout.
+2. **Teaching Materials(curriculum/02-materials)** - Lesson plan, codealongs & assessment, deck and handout.
 
 <!-- 3. [**Contributing Guidelines**](contributing-guidelines.md) - information about how to submit materials you create, adapt, or fix back to the global General Assembly team -->
 

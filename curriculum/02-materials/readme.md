@@ -1,6 +1,6 @@
 ---
 title: JavaScript 101
-duration: "2:00"
+duration: "2:30"
 creator:
     name: Melody Serra
     city: San Francisco
@@ -228,35 +228,66 @@ What data types did we store as the variable? That's right string and numbers. W
 
 ## Arithmetic Operators and Assignment Operators(10 mins)
 
+> Instructor Note: Discuss arithmetic operators and assignment operators from slides 25-26 with students.
 
-> Discuss arithmetic operators and assignment operators from slides 25-26 with students.
+We use operators to work with data in JavaScript. The standard arithmetic operators—which you have been learning since grade school—are supported here, including addition, subtraction, division, and so forth. Check it out:
+
+```
+2 + 4
+=> 6
+
+8 - 1
+=> 7
+
+4 / 2
+=> 2
+
+2 * 3
+=> 6
+```
+
+Values are assigned using =; compound assignment statements, such as += and -=, can also be used:
+
+```
+var num = 8;
+=> 8
+
+num += 6
+=> 14
+
+num -= 6
+=> 2
+```
+
+You can use ++ and -- to increment and decrement by 1, respectively. These can be used as prefix or postfix operators.
+
+To recap, we have discussed two types of values—or, objects—that store data and offer helpful computation functions.
 
 
- ADD content
+## Variables: Guided and Independent Practice (10 mins)
 
+> Instructor Note: During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
-## Variables: Guided Practice (10 mins)
+Find the starter code [here](variables/js/main.js)!
 
-> During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. Part 1 instructions state:
->
-> 1. Declare a variable with the name "score". Assign it the value 3. (solution: var score = 3;)
-> 2. Update the value of score. The new value should be 6. (solution: score= 6;)
-> 3. Use console.log to print out the value of score. (solution: console.log(score);)
+### Part 1
+1. Declare a variable with the name "score". Assign it the value 3. (solution: var score = 3;)
+2. Update the value of score. The new value should be 6. (solution: score= 6;)
+3. Use console.log to print out the value of score. (solution: console.log(score);)
 
-> Students will complete Part 2 on their own. The instructions are:
->
-> 1. Declare a variable with the name "totalAmount". Assign it the value 0.
-> 2. Update the value of totalAmount. The new value should be 10.
-> 3. Add five to the totalAmount using the += operator.
-> 4. Use console.log to print out the value of totalAmount.
+### Part 2
 
-## JavaScript in Action (10 mins)
+1. Declare a variable with the name "totalAmount". Assign it the value 0.
+2. Update the value of totalAmount. The new value should be 10.
+3. Add five to the totalAmount using the += operator.
+4. Use console.log to print out the value of totalAmount.
 
-> In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
->
+## Methods, JavaScript in Action: Demo (10 mins)
 
-- JavaScript method: an action that can be performed on an object.
-	- Example:
+> Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
+
+A method in JavaScript is an action that can be performed on an object. We can make a string lowercase, uppercase or ask for the length of the string. For example, here we're making the string all lower case.
+
 
 	```javascript
 		var str = "Hello World";
@@ -266,9 +297,9 @@ What data types did we store as the variable? That's right string and numbers. W
 
 	```
 
-- Concatenation: to take two strings and stick them together using the + operator.
+There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings (here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index].  
 
-- Example:
+We might also want to take two strings and combine or concatenate them. Concatenation simply means to take two strings and stick them together using the ```+``` operator like so!
 
 	```javascript
 		var book = "Happy";
@@ -278,12 +309,11 @@ What data types did we store as the variable? That's right string and numbers. W
 
 	```
 
-## How is jQuery different from JavaScript? (5 mins)
+## jQuery: Introduction (5 mins)
 
-- jQuery:
-	- jQuery is a JavaScript file you include in your pages.
-	- makes it faster and easier to write cross-browser JavaScript.
-	- allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
+jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
+
+Here's some basic syntactical differences between javascript and jQuery
 
 	```
 	JS: document.getElementById('heading').innerHTML = "Your Name";
@@ -292,10 +322,18 @@ What data types did we store as the variable? That's right string and numbers. W
 
 	```
 
+
 ## How does jQuery work? (15 mins)
 
-- jQuery can be used to manipulate the DOM.
-- Manipulating the DOM is possible because with jQuery you can:
+Since jQuery is a javascript file, before we start using jQuery, you need to include it in your html page. You can download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
+
+<head>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"</script>
+</head>
+
+Here are some things jQuery can do:
+
+- jQuery can be used to manipulate the DOM. Manipulating the DOM is possible because with jQuery you can:
 	- select certain elements
 	- work with these elements in some way
 - You select an element by doing the following:
@@ -305,28 +343,26 @@ $('li')     or      $('#firstParagraph')
 
 ```
 
-- The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
-- You manipulate or work with a certain element by doing the following:
+The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
+
+You manipulate or work with a certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
 
 ```
  .addClass('about-me');
 
 ```
 
-- .addClass is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
+In this example you start by selecting the h1 and then you append the method .html which will change the HTML content that is currently in between the opening and closing h1 tags.  
 
-- With jQuery you can do something like this:
 
 ```
 $('h1').html('Content to insert goes here');
 
 ```
 
-- In this example you start by selecting the h1 and then you append the method .html which will change the HTML content that is currently in between the opening and closing h1 tags.  
+## jQuery: Guided and Independent Practice (10 mins)
 
-***
-
-> Ask students to watch you as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Ask students to watch you as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 >
 	- Clone the project from GitHub
 	- Open the entire project folder in editor
