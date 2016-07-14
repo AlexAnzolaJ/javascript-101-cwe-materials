@@ -65,12 +65,13 @@ Did you know that there are over one billion websites that are live today? You'r
 
 Let's start off by reviewing the learning objectives. First and foremost, we'll gain an overview of the JavaScript landscape. We'll also get to understand the importance of planning and writing out pseudocode (the actions or logic behind our applications). We'll then write some basic JavaScript code in the Chrome developer console as we learn about data types and variables. We'll also get into learning jQuery to learn how to add animations and effects to our websites.
 
->Instructor Note: **You can distribute the starter code here to your class.**
-
 ### Peer Introductions
 
 >Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?."
 
+### Materials
+
+>Instructor Note: **You can distribute the starter code here to your class.**
 ***
 
 <a name="intro1"></a>
@@ -80,7 +81,7 @@ Let's start off by reviewing the learning objectives. First and foremost, we'll 
 
 The process of going from an idea to a fully developed and launched site is pretty cool! However, there are many components to building a website that allows for the type of functionality most clients seek today such as in an e-commerce website. A "full stack" developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look to help us understand the web production workflow.
 
-![](assets/wp.jpg)
+![](assets/wp.png)
 
 - UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
 - Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
@@ -102,13 +103,13 @@ We'll mostly be focusing on JavaScript as a front end language in this lesson. S
 
 ### Activity
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScipt in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
 - Which parts of the site are front end and which is back end?
 
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 <a name="intro2"></a>
-## What is JavaScript? (10 min)
+## Introduction: What is JavaScript? (10 min)
 
 So what exactly is JavaScript and what is it responsible for? To summarize, JavaScript can do a lot, including:
 
@@ -189,7 +190,6 @@ repeat forever
     turn off heater
 ```
 
-Instructor note:
 >Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
 
 <a name="demo2"></a>
@@ -242,24 +242,24 @@ We'll be using the console to practice creating variables. It's where JavaScript
 3. Select "console"
 5. Type the following:
 
-```
+```js
 console.log("Hello!");
 var name = "Susan";
 name;
 ```
 
-```
+```js
 var age = 18;
 age;
 ```
 
 To predict the types of data you're dealing with you can use ```typeof```.
 
-```
+```js
 typeof 3.45;
 ```
 
-```
+```js
 typeof true;
 ```
 
@@ -269,11 +269,11 @@ What data types did we store as the variable? That's right string and numbers. W
 <a name="demo3"></a>
 ## Demo: Arithmetic Operators and Assignment Operators (10 min)
 
-> Instructor Note: Discuss arithmetic operators and assignment operators from slides 25-26 with students.
+> Instructor Note: Discuss arithmetic operators and assignment operators from slides 28-29 with students.
 
 We use operators to work with data in JavaScript. The standard arithmetic operators—which you have been learning since grade school—are supported here, including addition, subtraction, division, and so forth. Check it out:
 
-```
+```js
 2 + 4
 => 6
 
@@ -289,7 +289,7 @@ We use operators to work with data in JavaScript. The standard arithmetic operat
 
 Values are assigned using =; compound assignment statements, such as += and -=, can also be used:
 
-```
+```js
 var num = 8;
 => 8
 
@@ -325,52 +325,56 @@ Find the starter code [here](variables/js/main.js)!
 3. Add five to the totalAmount using the += operator.
 4. Use console.log to print out the value of totalAmount.
 
-## Demo: Methods, JavaScript in Action (10 min)
+## Demo: JavaScript in Action (10 min)
 
-> Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
+> Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 32-33.
 
 A method in JavaScript is an action that can be performed on an object. We can make a string lowercase, uppercase or ask for the length of the string. For example, here we're making the string all lower case.
 
 
-	```javascript
+```js
+
 		var str = "Hello World";
 		var res = str.toLowerCase();
 		// the result of res will be:
 		// hello world
-
 	```
 
 There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings (here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index].  
 
 We might also want to take two strings and combine or concatenate them. Concatenation simply means to take two strings and stick them together using the ```+``` operator like so!
 
-	```javascript
+```js
 		var book = "Happy";
 		var summary = "Best book ever.";
 		var review = book + ": " + summary;
 		// Result will be: Happy: Best book ever.
 
-	```
+```
 
-## Introduction: jQuery, a JavaScript Library (10 min)
+## Introduction: jQuery, a JS Library (10 min)
 
 jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
 
 Here's some basic syntactical differences between javascript and jQuery
 
-	```
+```js
 	JS: document.getElementById('heading').innerHTML = "Your Name";
 
 	jQuery: $('#heading').html('Your Name');
 
-	```
+```
 
 jQuery is a javascript file, but before you start using jQuery, you'll need to include it in our html page. Let's download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
 
 ```html
+
+
 <head>
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"</script>
 </head>
+
+
 ```
 
 To reiterate, here are some things jQuery can do:
@@ -380,7 +384,8 @@ To reiterate, here are some things jQuery can do:
 	- work with these elements in some way
 - You select an element by doing the following:
 
-```
+```js
+
 $('li')     or      $('#firstParagraph')
 
 ```
@@ -389,7 +394,7 @@ The dollar sign specifies that you are using jQuery, what goes inside the parent
 
 You manipulate or work with certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
 
-```
+```js
  .addClass('about-me');
 
 ```
@@ -397,7 +402,8 @@ You manipulate or work with certain elements. For example, ```.addClass``` is a 
 In this example you start by selecting the h1 and then you append the method .html which will change the HTML content that is currently in between the opening and closing h1 tags.  
 
 
-```
+```js
+
 $('h1').html('Content to insert goes here');
 
 ```
@@ -445,7 +451,7 @@ Here is the prompt for the deliverable:
 - With jQuery you can also add effects and animations.
 - Example:
 
-```
+```js
 $('h1').fadeOut(200);
 
 ```
@@ -453,7 +459,7 @@ $('h1').fadeOut(200);
 - Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered.
 - Example:
 
-```
+```js
 $('li').on('click', function() {
   // your code here
 });
