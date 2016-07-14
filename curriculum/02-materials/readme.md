@@ -1,13 +1,12 @@
 ---
 title: JavaScript 101
-duration: "2:30"
+duration: "3:00"
 creator:
     name: Melody Serra
     city: San Francisco
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) JavaScript 101
-
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -33,27 +32,50 @@ creator:
 - Write learning objectives on board.
 - Make sure wifi network and password (GA Guest, yellowpencil) is written on board, since students will need to be online to use codepen.io.
 
+
+### WORKSHOP AGENDA
+
+| TIMING  | TYPE  | TOPIC  |
+|:-:|---|---|
+| 10 min  | [Opening](#opening)  | Greetings + The GA Experience  |
+| 10 min  | [Introduction](#intro1)   | Web Production Workflow |
+| 10 min  | [Introduction](#intro2)    | What is JavaScript?  |
+| 15 min  | [Independent Practice](#ind-practice1)  | Practice Reading JavaScript |
+| 5 min   | [Demo](#demo1)  | Pseudo Code|
+| 15 min  | [Independent Practice](#ind-practice2)   | Thermostat |
+| 10 min  | [Demo](#demo2)  | Variables and Data Types |
+| 15 min  | [Guided Practice](#guided-practice1)  | Using the Console |
+| 10 min  | [Demo](#demo3)  | Arithmetic Operators and Assignment Operators |
+| 15 min  | [Guided/Independent Practice](#guided-practice2)  | Variables |
+| 10 min  | [Demo](#demo4)  | Methods, JavaScript in Action |
+| 5  min  | BREAK  |   |
+| 20 min  | [Introduction](#intro3)  | jQuery, a JavaScript Library  |
+| 20 min  | [Guided Practice/Independent Practice](#guided-practice3) | jQuery Codealong Part 1 |
+| 10 min  | [Demo](#demo5) | jQuery Animations and Effects |
+| 20 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
+| 20 min  | [Guided/Independent Practice](#guided-practice3) | jQuery + Conditionals |
+| 10 min  | [Conclusion](#conclusion) | Review + Recap |
+| 10 min  | [Takeaways](#takeaway) | Q&A |
 ---
 <a name="opening"></a>
-## Opening (10 mins)
+## Opening: Greetings + The GA Experience (10 min)
 
 Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. We'll be learning the building blocks that will allow you to get creative and bring your ideas to life.
 
-#### Review Learning Objectives
+### Review Learning Objectives
 
 In this class, we'll gain an overview of the JavaScript landscape. We'll also get to coding some JavaScript, but before we do that, we'll have to understand how programs actually work. To do so, we'll learn what's called pseudocode, a way to write code in plain English. Doing so will allow us to focus on the logic of programs as opposed to being worried about syntax. We'll then write some basic JavaScript expressions. We'll also get into learning jQuery to add interactivity to our websites.
 
 >Instructor Note: **You can distribute the starter code here to your class to avoid running into any issues later.**
 
-#### Introductions
+### Peer Introductions
 
 >Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?."
 
-
 ***
 
-<a name="introduction"></a>
-## Web Production Workflow: Introduction (10 mins)
+<a name="intro1"></a>
+## Introduction: Web Production Workflow (10 min)
 
 > Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
 
@@ -66,7 +88,7 @@ The process of going from an idea to a fully developed and launched site is pret
 - Front End: front end developers bring the designs to life with HTML, CSS, and JS.
 - Back End: back end developers give the website a "memory" with databases, authenticating users etc.
 
-#### Front End vs Back End in More Detail:
+### Front End vs Back End in More Detail:
 
 Sometimes it can be difficult to tell how the front end really differentiates from the back-end. Let's go into further detail to illustrate the difference between the two.
 
@@ -79,7 +101,7 @@ We'll mostly be focusing on JavaScript as a front end language in this lesson. S
 - CSS = adjective (responsible for styles like color or font family)
 - JavaScript = verb (responsible for behaviors, like drop-down menus)
 
-#### Activity
+### Activity
 
 Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, we're able point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
 - Which parts of the site are front end and which is back end?
@@ -87,14 +109,17 @@ Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “E
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 
-## What is JavaScript? (15 mins)
+<a name="intro2"></a>
+## What is JavaScript? (10 min)
 
-So what exactly is JavaScript and what is it responsible for? To summarize, JavaScript can be do a lot, including:
+So what exactly is JavaScript and what is it responsible for? To summarize, JavaScript can do a lot, including:
 
 	- modify the behavior of content
 	- create interactions and add functionality
 	- animations
 	- manipulating what we call the DOM
+
+### Let's review the DOM
 
 In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
@@ -102,18 +127,21 @@ The **Document Object Model(DOM)** is a collection of document nodes that are tr
 
 ![](assets/dom.jpg)
 
-Let's practice reading some JavaScript in this PRACTICE READING JS using this [codepen](http://codepen.io/nevan/pen/shtLA). The directions in the slide read as follows:
+<a name="#ind-practice1"></a>
+## Independent Practice: Practice Reading JavaScript (15 min)
+
+Let's practice reading some JavaScript using this code [codepen](http://codepen.io/nevan/pen/shtLA). Follow
 
 Visit the codepen together and:
 
 1. Turn to someone next to you and as a team try to figure out on a high level what is happening
 2. With your partner try to make it so that the slow button changes the bulb to yellow
 3. With your partner try to make it so that the go button works
-4. This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet
->
+4. This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet!
+
 >Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to making it so that the slow button changes the bulb to yellow, and the go button works.
 
-## Intro to Pseudo Code (10 mins)
+## Demo: Pseudo Code (5 min)
 
 Before we start writing any Javascript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
 
@@ -136,7 +164,7 @@ Again, the goal is to think through the problem and break it down into simple st
 > **Check**: "Why do you think it is important to plan out your program before coding it?"
 
 
-#### Pseudocode Activity — Thermostat.
+## Independent Practice: Thermostat (10 min)
 
 With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
@@ -153,14 +181,12 @@ repeat forever
     turn off heater
 ```
 
-
 Instructor note:
 >Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
 
-## Coding Javascript: Demo (10 minutes)
+## Demo: Variables and Data Types (10 minutes)
 
 Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
-
 
 #### Variables
 
@@ -197,7 +223,7 @@ What can be stored in variables? There are three main data types or values that 
 
 **Booleans**: a data type that has a value of either ```true``` or ```false```
 
-#### Using the Console: Guided Practice (10 minutes)
+## Guided Practice: Using the Console (15 minutes)
 
 We'll be using the console to practice creating variables. It's where where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
 
@@ -230,7 +256,7 @@ typeof true;
 What data types did we store as the variable? That's right string and numbers. We'll learn about Booleans later in this class.
 
 
-## Arithmetic Operators and Assignment Operators(10 mins)
+## Demo: Arithmetic Operators and Assignment Operators (10 min)
 
 > Instructor Note: Discuss arithmetic operators and assignment operators from slides 25-26 with students.
 
@@ -268,7 +294,7 @@ You can use ++ and -- to increment and decrement by 1, respectively. These can b
 To recap, we have discussed two types of values—or, objects—that store data and offer helpful computation functions.
 
 
-## Variables: Guided and Independent Practice (10 mins)
+## Guided/Independent Practice: Variables (15 min)
 
 > Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
@@ -287,7 +313,7 @@ Find the starter code [here](variables/js/main.js)!
 3. Add five to the totalAmount using the += operator.
 4. Use console.log to print out the value of totalAmount.
 
-## Methods, JavaScript in Action: Demo (10 mins)
+## Demo: Methods, JavaScript in Action (10 min)
 
 > Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 29-30.
 
@@ -314,7 +340,7 @@ We might also want to take two strings and combine or concatenate them. Concaten
 
 	```
 
-## jQuery: Introduction (5 mins)
+## Introduction: jQuery, a JavaScript Library (20 min)
 
 jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
 
@@ -326,9 +352,6 @@ Here's some basic syntactical differences between javascript and jQuery
 	jQuery: $('#heading').html('Your Name');
 
 	```
-
-
-## jQuery Syntax(15 mins)
 
 jQuery is a javascript file, but before you start using jQuery, you'll need to include it in our html page. Let's download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
 
@@ -367,15 +390,16 @@ $('h1').html('Content to insert goes here');
 
 ```
 
-## jQuery: Guided Practice (10 mins)
+## Guided/Independent Practice: jQuery Codealong (20 min)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the starter code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
 	- Open the entire project folder in editor
 	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
 
+### Part 1 (Guided Practice)
 
 1. Remove the highlight class from #box2 (use the ```.removeClass()``` method)
 
@@ -391,23 +415,20 @@ $('#box3').find('a').html('jQuery!');
 
 <a name="ind-practice"></a>
 
-## jQuery: Independent Practice (10 mins)
+### Part 2 (Independent Practice)
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
 Here is the prompt for the deliverable:
 
-### Part 1 - Now you try
-
-1. Add the ```.highlight``` class to ```#box4``` (use the ```.addClass()`` method)
+1. Add the ```.highlight``` class to ```#box4``` (use the ```.addClass()``` method)
 
 2. Make the text color of the strong tag within #box2 green (use the ```.css()``` method)
 
 **Check:** Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
-
-## jQuery Effects and Animations (10 mins)
+## Demo: jQuery Effects and Animations (10 min)
 
 - With jQuery you can also add effects and animations.
 - Example:
@@ -427,7 +448,7 @@ $('li').on('click', function() {
 
 ```
 
-## jQuery: Guided Practice (10 mins)
+## Guided Practice/Independent Practice: Effects and Animations (10 min)
 
 > Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
 
@@ -437,45 +458,34 @@ Here are the steps to get started:
 	- Type out the solution as students watch you:
 
 1. When the anchor within #box3 is clicked
+a) Slide toggle #box4
+b) Fade out #box1 slowly
 
-	// a) Slide toggle #box4
+### Part 1 (Guided Practice)
 
-	// b) Fade out #box1 slowly
+	```js
+  $('#box2').removeClass('highlight');
+  ```
 
-	$('#box2').removeClass('highlight');
+2. Select the anchor within #box3. Change the HTML to 'jQuery!'
 
- 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
-
-```
+```js
  	$('#box3').find('a').html('jQuery!');
 ```
 
-
-<a name="ind-practice"></a>
-## Independent Practice: jquery _code _along (5 mins)
+### Part 2 (Independent Practice)
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
 Here is a prompt for the deliverable:
 
-Part 2 - Now you try:
-
-// 2. When the h2 is clicked on
-
-// a) Slide up the h2
-
-// b) Add the snazzy class to the h1
-
+ 1. When the h2 is clicked on
+ a) Slide up the h2
+b) Add the snazzy class to the h1
 
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
-
-
-
-
-***
-
-## Conditionals (10 mins)
+## Independent Practice: jQuery + Conditionals (20 min)
 
 - If something is true, do one thing. If it is not, do something else. This type of logic or statement is a condition.
 - Example:
@@ -494,22 +504,12 @@ if (age > 65) {
 ```
 
 <a name="conclusion"></a>
-
-## Conclusion (10 mins)
->
-- Review independent practice deliverable(s).
+## Conclusion (10 min)
+> Instructor Note:
+> Review independent practice deliverable(s).
 - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
 - Recap topic(s) covered in today's lesson.
 
-***
+### Takeaways: Q&A (5 min)
 
-### BEFORE NEXT CLASS
-|   |   |
-|---|---|
-| **HOMEWORK** | Dash Project 4 and 5  |
-
-
-### ADDITIONAL RESOURCES
->
->- Add your own resources.
-- There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
+> There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
