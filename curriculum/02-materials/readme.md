@@ -374,7 +374,7 @@ $('li')     or      $('#firstParagraph')
 
 The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
 
-You manipulate or work with a certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
+You manipulate or work with certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
 
 ```
  .addClass('about-me');
@@ -396,7 +396,7 @@ $('h1').html('Content to insert goes here');
 Here are the steps to get started:
 
 	- Open the entire project folder in editor
-	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
+	- Identity that the script tags linking your external JavaScript file and linking the jQuery library have already been added
 
 ### Part 1 (Guided Practice)
 
