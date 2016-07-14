@@ -379,7 +379,7 @@ jQuery is a javascript file, but before you start using jQuery, you'll need to i
 
 
 <head>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"</script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"</script>
 </head>
 
 
@@ -431,15 +431,7 @@ Here are the steps to get started:
 
 1. Remove the highlight class from #box2 (use the ```.removeClass()``` method)
 
-```js
-$('#box2').removeClass('highlight');
-```
-
 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
-
-```js
-$('#box3').find('a').html('jQuery!');
-```
 
 <a name="ind-practice"></a>
 
@@ -489,21 +481,13 @@ Here are the steps to get started:
 	- Open the entire project folder in editor (if closed)
 	- Type out the solution as students watch you:
 
-1. When the anchor within #box3 is clicked
-a) Slide toggle #box4
-b) Fade out #box1 slowly
-
 ### Part 1
 
-```js
-  $('#box2').removeClass('highlight');
-```
+1. When the anchor within #box3 is clicked:  
 
-2. Select the anchor within #box3. Change the HTML to 'jQuery!'
-
-```js
- 	$('#box3').find('a').html('jQuery!');
-```
+	a) Slide toggle #box4 
+	
+	b) Fade out #box1 slowly
 
 ### Part 2
 
@@ -511,9 +495,12 @@ b) Fade out #box1 slowly
 
 Here is a prompt for the deliverable:
 
- 1. When the h2 is clicked on
- a) Slide up the h2
-b) Add the snazzy class to the h1
+1. When the h2 is clicked on: 
+ a) Slide up the h2 
+ b) Add the snazzy class to the h1
+	
+2. When #box1 is clicked on:
+	a) Add the highlight class to h3
 
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
