@@ -338,7 +338,7 @@ A method in JavaScript is an action that can be performed on an object. We can m
 		var res = str.toLowerCase();
 		// the result of res will be:
 		// hello world
-	```
+```
 
 There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings (here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index].  
 
@@ -481,9 +481,9 @@ b) Fade out #box1 slowly
 
 ### Part 1 (Guided Practice)
 
-	```js
+```js
   $('#box2').removeClass('highlight');
-  ```
+```
 
 2. Select the anchor within #box3. Change the HTML to 'jQuery!'
 
