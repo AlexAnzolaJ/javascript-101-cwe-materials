@@ -59,13 +59,13 @@ creator:
 <a name="opening"></a>
 ## Opening: Greetings + The GA Experience (10 min)
 
-Did you know that there are over one billion websites that are live today? You can reach so many people by creating a website that distributes your ideas in a unique way. We'll be learning the building blocks that will allow you to get creative and bring your ideas to life.
+Did you know that there are over one billion websites that are live today? You're able to reach so many people by creating websites that distribute your ideas in a unique way. In this workshop, we'll be learning the building blocks that will allow you to get creative and bring your ideas to life.
 
 ### Review Learning Objectives
 
-In this class, we'll gain an overview of the JavaScript landscape. We'll also get to coding some JavaScript, but before we do that, we'll have to understand how programs actually work. To do so, we'll learn what's called pseudocode, a way to write code in plain English. Doing so will allow us to focus on the logic of programs as opposed to being worried about syntax. We'll then write some basic JavaScript expressions. We'll also get into learning jQuery to add interactivity to our websites.
+Let's start off by reviewing the learning objectives. First and foremost, we'll gain an overview of the JavaScript landscape. We'll also get to understand the importance of planning and writing out pseudocode (the actions or logic behind our applications). We'll then write some basic JavaScript code in the Chrome developer console as we learn about data types and variables. We'll also get into learning jQuery to learn how to add animations and effects to our websites.
 
->Instructor Note: **You can distribute the starter code here to your class to avoid running into any issues later.**
+>Instructor Note: **You can distribute the starter code here to your class.**
 
 ### Peer Introductions
 
@@ -76,9 +76,9 @@ In this class, we'll gain an overview of the JavaScript landscape. We'll also ge
 <a name="intro1"></a>
 ## Introduction: Web Production Workflow (10 min)
 
-> Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below by dividing parts into sections. Ask students to define, explain, or recall any **specific** elements relating to the current topic, when applicable.
+> Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below. When applicable,  ask students to define, explain, or recall any **specific** elements relating to the current topic.
 
-The process of going from an idea to a fully developed and launched site is pretty cool! Just a front-end developer can't necessarily build an entire "full-stack" website that allows for the type of functionality most clients seek today such as on a e-commerce website. A full stack developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look at the web production workflow to help us understand.
+The process of going from an idea to a fully developed and launched site is pretty cool! However, there are many components to building a website that allows for the type of functionality most clients seek today such as in an e-commerce website. A "full stack" developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look to help us understand the web production workflow.
 
 ![](assets/wp.jpg)
 
@@ -89,12 +89,12 @@ The process of going from an idea to a fully developed and launched site is pret
 
 ### Front End vs Back End in More Detail:
 
-Sometimes it can be difficult to tell how the front end really differentiates from the back-end. Let's go into further detail to illustrate the difference between the two.
+Sometimes it can be challenging to describe how the front-end really differentiates from the back-end. Let's further illustrate the difference between the two.
 
 - Front end: everything the user can see and interact with on a site.
 - Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
 
-We'll mostly be focusing on JavaScript as a front end language in this lesson. So let's break down the THREE front end languages are HTML, CSS, and JavaScript.
+Let's break down the THREE front end languages that we'll be using in class here today:
 
 - HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 - CSS = adjective (responsible for styles like color or font family)
@@ -106,7 +106,6 @@ Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “E
 - Which parts of the site are front end and which is back end?
 
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
-
 
 <a name="intro2"></a>
 ## What is JavaScript? (10 min)
@@ -120,7 +119,9 @@ So what exactly is JavaScript and what is it responsible for? To summarize, Java
 
 ### Let's review the DOM
 
-In order for us to understand what JavaScript is and what it is used for, we need to first understand what the DOM(Document Object Model) is. As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM. Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
+In order for us to truly understand what JavaScript is and what it is used for, we need to first take a look at the  DOM(Document Object Model). As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM! Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
+
+> Instructor Note: Students should already have an understanding of the DOM so treat the content below as a mini-review.
 
 The **Document Object Model(DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
 
@@ -136,13 +137,14 @@ Visit the codepen together and:
 1. Turn to someone next to you and as a team try to figure out on a high level what is happening
 2. With your partner try to make it so that the slow button changes the bulb to yellow
 3. With your partner try to make it so that the go button works
-4. This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet!
+
+This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet!
 
 >Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to making it so that the slow button changes the bulb to yellow, and the go button works.
 
 ## Demo: Pseudo Code (5 min)
 
-Before we start writing any Javascript, we'll learn a bit about how to write pseudocode. What is pseudocode? Well, it's a way to 'plan out' your program before coding it, which will make the coding process infinitely more seamless! To put in simple terms, it's a detailed yet readable description of what a computer program must do and it's expressed in plain english.
+Before we start writing any Javascript, we'll learn a bit about how to plan out your code by writing pseudocode. What is pseudocode? Well, to put in simple terms, it's a way to 'plan out' your program in plain English before coding it, which will make the coding process infinitely more seamless! It will serve as a detailed yet readable description of what a computer program must do.
 
 Take, for example, a program that lets a player know whether he or she has passed the current level. Pseudo code for this program might look like the following:
 
@@ -156,6 +158,7 @@ if playerScore >= passingScore
     display message "Current level: Passed"
 otherwise
     display message "Current level: Failed"
+
 ```
 
 Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudo code must be written, each person's version will likely vary slightly. Indentation is often used to keep statements organized and grouped together.
@@ -167,6 +170,11 @@ Again, the goal is to think through the problem and break it down into simple st
 
 With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
+1. Open up sublime
+2. Type in your pseudocode in the text editor
+
+
+Example answer:
 
 ```js
 get targetTemperature
@@ -185,7 +193,7 @@ Instructor note:
 
 ## Demo: Variables and Data Types (10 minutes)
 
-Now that we've learned a bit about pseudocode and how that can help us explain JS logic, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
+Now that we've learned a bit about pseudocode, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
 
 #### Variables
 
