@@ -49,13 +49,12 @@ creator:
 | 15 min  | [Guided/Independent Practice](#guided-practice2)  | Variables |
 | 10 min  | [Demo](#demo4)  | Methods, JavaScript in Action |
 | 5  min  | BREAK  |   |
-| 20 min  | [Introduction](#intro3)  | jQuery, a JavaScript Library  |
-| 20 min  | [Guided Practice/Independent Practice](#guided-practice3) | jQuery Codealong Part 1 |
+| 10 min  | [Introduction](#intro3)  | jQuery, a JavaScript Library  |
+| 15 min  | [Guided Practice/Independent Practice](#guided-practice3) | jQuery Codealong Part 1 |
 | 10 min  | [Demo](#demo5) | jQuery Animations and Effects |
-| 20 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
+| 10 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
 | 20 min  | [Guided/Independent Practice](#guided-practice3) | jQuery + Conditionals |
-| 10 min  | [Conclusion](#conclusion) | Review + Recap |
-| 10 min  | [Takeaways](#takeaway) | Q&A |
+| 5 min  | [Conclusion](#conclusion) | Review + Recap |
 ---
 <a name="opening"></a>
 ## Opening: Greetings + The GA Experience (10 min)
@@ -340,7 +339,7 @@ We might also want to take two strings and combine or concatenate them. Concaten
 
 	```
 
-## Introduction: jQuery, a JavaScript Library (20 min)
+## Introduction: jQuery, a JavaScript Library (10 min)
 
 jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
 
@@ -390,7 +389,7 @@ $('h1').html('Content to insert goes here');
 
 ```
 
-## Guided/Independent Practice: jQuery Codealong (20 min)
+## Guided/Independent Practice: jQuery Codealong (15 min)
 
 > Instructor Note: Make sure your students have the starter code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
@@ -509,7 +508,5 @@ if (age > 65) {
 > Review independent practice deliverable(s).
 - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
 - Recap topic(s) covered in today's lesson.
-
-### Takeaways: Q&A (5 min)
 
 > There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
