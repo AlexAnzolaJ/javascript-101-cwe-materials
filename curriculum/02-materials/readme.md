@@ -22,7 +22,7 @@ creator:
 
 - Install Sublime Text 3 on your computer.
 - Have Google Chrome on your computer.
-- Complete DASH Project 1
+- Complete DASH Project 1.
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -83,7 +83,7 @@ The process of going from an idea to a fully developed and launched site is pret
 ![](assets/wp.jpg)
 
 - UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
-- DesignL: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
+- Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
 - Front End: front end developers bring the designs to life with HTML, CSS, and JS.
 - Back End: back end developers give the website a "memory" with databases, authenticating users etc.
 
@@ -94,7 +94,7 @@ Sometimes it can be challenging to describe how the front-end really differentia
 - Front end: everything the user can see and interact with on a site.
 - Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
 
-Let's break down the THREE front end languages that we'll be using in class here today:
+We'll mostly be focusing on JavaScript as a front end language in this lesson. So let's break down the THREE front end languages - HTML, CSS, and JavaScript.
 
 - HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 - CSS = adjective (responsible for styles like color or font family)
@@ -102,7 +102,7 @@ Let's break down the THREE front end languages that we'll be using in class here
 
 ### Activity
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, we're able point out the dynamically looping hero images. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScipt in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
 - Which parts of the site are front end and which is back end?
 
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
@@ -130,7 +130,7 @@ The **Document Object Model(DOM)** is a collection of document nodes that are tr
 <a name="#ind-practice1"></a>
 ## Independent Practice: Practice Reading JavaScript (15 min)
 
-Let's practice reading some JavaScript using this code [codepen](http://codepen.io/nevan/pen/shtLA). Follow
+Let's practice reading some JavaScript using this code [codepen](http://codepen.io/nevan/pen/shtLA).
 
 Visit the codepen together and:
 
@@ -199,7 +199,7 @@ Now that we've learned a bit about pseudocode, let's begin to code! The first st
 
 #### Variables
 
-The 'container' is what we use to store the value is called a **variable**. Remember these properties of a variable:
+The 'container' we use to store a value is called a **variable**. Remember these properties of a variable:
 - A variable has a **name** and a **value**.
 - The value can change.
 
@@ -228,14 +228,14 @@ What can be stored in variables? There are three main data types or values that 
 **Strings**: groups of characters (either letters, numbers, or special characters like punctuation, spaces, or parentheses). They come in two varieties, 'single-quote' (also sometimes called 'string literals') and "double-quote". Though there are some differences between the two, don't worry about them for now. Strings are typically used to store text for people to read.
   Examples: ```'hello'```, ```'goodbye'```, ```'moc.liamg@gmail.com'```
 
-**Numbers**: can be positive, negative, decimals Examples: ```20, -4.5, 300, 99.99```
+**Numbers**: can be positive, negative, decimals. Examples: ```20, -4.5, 300, 99.99```
 
 **Booleans**: a data type that has a value of either ```true``` or ```false```
 
 <a name="guided-practice1"></a>
 ## Guided Practice: Using the Console (15 minutes)
 
-We'll be using the console to practice creating variables. It's where where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
+We'll be using the console to practice creating variables. It's where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
 
 1. Open up Google Chrome
 2. Right click and go to "inspect"
@@ -315,7 +315,7 @@ Find the starter code [here](variables/js/main.js)!
 
 ### Part 1
 1. Declare a variable with the name "score". Assign it the value 3. (solution: var score = 3;)
-2. Update the value of score. The new value should be 6. (solution: score= 6;)
+2. Update the value of score. The new value should be 6. (solution: score = 6;)
 3. Use console.log to print out the value of score. (solution: console.log(score);)
 
 ### Part 2
@@ -387,7 +387,7 @@ $('li')     or      $('#firstParagraph')
 
 The dollar sign specifies that you are using jQuery, what goes inside the parentheses and quotes is what you are selecting. As you can see, you can use your CSS-style selectors!
 
-You manipulate or work with a certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
+You manipulate or work with certain elements. For example, ```.addClass``` is a method that you would append to the selected object. In this example you are adding a class called 'about-me'.
 
 ```
  .addClass('about-me');
