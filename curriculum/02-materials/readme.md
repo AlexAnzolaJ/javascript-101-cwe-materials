@@ -166,6 +166,7 @@ Again, the goal is to think through the problem and break it down into simple st
 > **Check**: "Why do you think it is important to plan out your program before coding it?"
 
 
+<a name="ind-practice2"></a>
 ## Independent Practice: Thermostat (10 min)
 
 With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
@@ -191,6 +192,7 @@ repeat forever
 Instructor note:
 >Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
 
+<a name="demo2"></a>
 ## Demo: Variables and Data Types (10 minutes)
 
 Now that we've learned a bit about pseudocode, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
@@ -230,6 +232,7 @@ What can be stored in variables? There are three main data types or values that 
 
 **Booleans**: a data type that has a value of either ```true``` or ```false```
 
+<a name="guided-practice1"></a>
 ## Guided Practice: Using the Console (15 minutes)
 
 We'll be using the console to practice creating variables. It's where where JavaScript is interpreted and run. You can use it to practice writing JavaScript!
@@ -263,6 +266,7 @@ typeof true;
 What data types did we store as the variable? That's right string and numbers. We'll learn about Booleans later in this class.
 
 
+<a name="demo3"></a>
 ## Demo: Arithmetic Operators and Assignment Operators (10 min)
 
 > Instructor Note: Discuss arithmetic operators and assignment operators from slides 25-26 with students.
@@ -301,6 +305,7 @@ You can use ++ and -- to increment and decrement by 1, respectively. These can b
 To recap, we have discussed two types of values—or, objects—that store data and offer helpful computation functions.
 
 
+<a name="demo4"></a>
 ## Guided/Independent Practice: Variables (15 min)
 
 > Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
