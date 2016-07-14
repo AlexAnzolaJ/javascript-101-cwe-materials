@@ -53,7 +53,7 @@ creator:
 | 15 min  | [Guided Practice/Independent Practice](#guided-practice3) | jQuery Codealong Part 1 |
 | 10 min  | [Demo](#demo5) | jQuery Animations and Effects |
 | 10 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
-| 10 min  | [Independent Practice ](#guided-practice3) | jQuery + Conditionals |
+| 10 min  | [Demo-Optional ](#guided-practice3) | jQuery + Conditionals |
 | 5 min  | [Conclusion](#conclusion) | Review + Recap |
 ---
 <a name="opening"></a>
