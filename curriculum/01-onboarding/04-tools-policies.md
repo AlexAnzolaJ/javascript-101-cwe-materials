@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Class/Workshop: Tools & Policies
 
-This course teaches students about ____. This field is constantly evolving, and it would be impossible to introduce every tool in one workshop.
+This course teaches students about web development, specifically JavaScript. This field is constantly evolving, and it would be impossible to introduce every tool in one workshop.
 
 Instead, General Assembly provides a core set of objectives for this workshop, along with guidelines for how to ensure students reach these objectives. As an instructor, you have the opportunity and responsibility to adapt these recommendations to your local context and modify/expand on any of these tools as you see fit.
 
@@ -8,14 +8,7 @@ Instead, General Assembly provides a core set of objectives for this workshop, a
 ## Required Tools
 
 - [Github](www.github.com) - We’re using Github to store and share our code
-- X
-- Y
-
-#### Optional Tools
-These tools aren't required, but offer additional functionality that students may find helpful!
-
-- Popular Text Editors: [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
-
+- Text Editors: [Atom](https://atom.io) or [Sublime](http://www.sublimetext.com)
 
 
 ## Technology Policy
