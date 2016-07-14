@@ -53,7 +53,7 @@ creator:
 | 15 min  | [Guided Practice/Independent Practice](#guided-practice3) | jQuery Codealong Part 1 |
 | 10 min  | [Demo](#demo5) | jQuery Animations and Effects |
 | 10 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
-| 20 min  | [Guided/Independent Practice](#guided-practice3) | jQuery + Conditionals |
+| 10 min  | [Independent Practice](#guided-practice3) | jQuery + Conditionals |
 | 5 min  | [Conclusion](#conclusion) | Review + Recap |
 ---
 <a name="opening"></a>
@@ -90,7 +90,7 @@ The process of going from an idea to a fully developed and launched site is pret
 
 ### Front End vs Back End in More Detail:
 
-Sometimes it can be challenging to describe how the front-end really differentiates from the back-end. Let's further illustrate the difference between the two.
+Sometimes it can be challenging to describe how the front-end realy differentiates from the back-end. Let's further illustrate the difference between the two.
 
 - Front end: everything the user can see and interact with on a site.
 - Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
@@ -128,7 +128,7 @@ The **Document Object Model(DOM)** is a collection of document nodes that are tr
 
 ![](assets/dom.jpg)
 
-<a name="#ind-practice1"></a>
+<a name="ind-practice1"></a>
 ## Independent Practice: Practice Reading JavaScript (15 min)
 
 Let's practice reading some JavaScript using this code [codepen](http://codepen.io/nevan/pen/shtLA).
@@ -197,7 +197,7 @@ repeat forever
 
 Now that we've learned a bit about pseudocode, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
 
-#### Variables
+### Variables
 
 The 'container' we use to store a value is called a **variable**. Remember these properties of a variable:
 - A variable has a **name** and a **value**.
@@ -221,7 +221,7 @@ age = 30;
 
 > Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
 
-#### Data Types
+### Data Types
 
 What can be stored in variables? There are three main data types or values that we'll want to learn about here.
 
@@ -325,6 +325,7 @@ Find the starter code [here](variables/js/main.js)!
 3. Add five to the totalAmount using the += operator.
 4. Use console.log to print out the value of totalAmount.
 
+<a name="demo3"></a>
 ## Demo: JavaScript in Action (10 min)
 
 > Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 32-33.
@@ -351,19 +352,26 @@ We might also want to take two strings and combine or concatenate them. Concaten
 		// Result will be: Happy: Best book ever.
 
 ```
-
+<a name="intro3"></a>
 ## Introduction: jQuery, a JS Library (10 min)
 
 jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
 
 Here's some basic syntactical differences between javascript and jQuery
 
+JS
 ```js
-	JS: document.getElementById('heading').innerHTML = "Your Name";
+ document.getElementById('heading').innerHTML = "Your Name";
+```
 
-	jQuery: $('#heading').html('Your Name');
+jQuery
+
+```js
+  $('#heading').html('Your Name');
 
 ```
+
+### Loading jQuery
 
 jQuery is a javascript file, but before you start using jQuery, you'll need to include it in our html page. Let's download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
 
@@ -376,6 +384,8 @@ jQuery is a javascript file, but before you start using jQuery, you'll need to i
 
 
 ```
+
+### How Does jQuery Work?
 
 To reiterate, here are some things jQuery can do:
 
@@ -401,14 +411,14 @@ You manipulate or work with certain elements. For example, ```.addClass``` is a 
 
 In this example you start by selecting the h1 and then you append the method .html which will change the HTML content that is currently in between the opening and closing h1 tags.  
 
-
 ```js
 
 $('h1').html('Content to insert goes here');
 
 ```
 
-## Guided/Independent Practice: jQuery Codealong (15 min)
+<a name="guided-practice3"></a>
+## Guided/Independent Practice: jQuery Codealong Part 1 (15 min)
 
 > Instructor Note: Make sure your students have the starter code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
@@ -417,7 +427,7 @@ Here are the steps to get started:
 	- Open the entire project folder in editor
 	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
 
-### Part 1 (Guided Practice)
+### Part 1
 
 1. Remove the highlight class from #box2 (use the ```.removeClass()``` method)
 
@@ -433,7 +443,7 @@ $('#box3').find('a').html('jQuery!');
 
 <a name="ind-practice"></a>
 
-### Part 2 (Independent Practice)
+### Part 2
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -446,6 +456,8 @@ Here is the prompt for the deliverable:
 **Check:** Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
+
+<a name="demo"></a>
 ## Demo: jQuery Effects and Animations (10 min)
 
 - With jQuery you can also add effects and animations.
@@ -466,7 +478,9 @@ $('li').on('click', function() {
 
 ```
 
-## Guided Practice/Independent Practice: Effects and Animations (10 min)
+
+<a name="guided-practice4"></a>
+## Guided Practice/Independent Practice: jQuery Codealong Part 2 (10 min)
 
 > Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
 
@@ -479,7 +493,7 @@ Here are the steps to get started:
 a) Slide toggle #box4
 b) Fade out #box1 slowly
 
-### Part 1 (Guided Practice)
+### Part 1
 
 ```js
   $('#box2').removeClass('highlight');
@@ -491,7 +505,7 @@ b) Fade out #box1 slowly
  	$('#box3').find('a').html('jQuery!');
 ```
 
-### Part 2 (Independent Practice)
+### Part 2
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -503,10 +517,19 @@ b) Add the snazzy class to the h1
 
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
-## Independent Practice: jQuery + Conditionals (20 min)
 
-- If something is true, do one thing. If it is not, do something else. This type of logic or statement is a condition.
-- Example:
+<a name="demo6"></a>
+## Demo: jQuery + Conditionals (10 min)
+
+If something is true, do one thing. If it is not, do something else. This type of logic or statement is a condition. In JavaScript (and coding in general) you'll need to make comparisons all the time:
+
+- Is a user logged in?
+- Has the user chosen three or more colors?
+- Is the password correct?
+- Does a user have enough money in their bank account?
+etc.
+
+Here's an example:
 
 ```javascript
 if (age > 65) {
@@ -521,11 +544,20 @@ if (age > 65) {
 
 ```
 
-<a name="conclusion"></a>
-## Conclusion (10 min)
-> Instructor Note:
-> Review independent practice deliverable(s).
-- Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
-- Recap topic(s) covered in today's lesson.
+> Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
 
+
+<a name="conclusion"></a>
+## Conclusion (5 min)
+So, who needs to know about this stuff? Everyone!  Even if you’re not the one doing the coding, being able to communicate effectively with developers and understand what’s going on behind the scenes of a product is a very important and highly valued skill in today’s job market.  
+
+A couple last things. You are going to get lots of errors…
+- Google first, ask questions later (but don't be afraid to ask)
+- Stack Overflow is great for this stuff!
+- Get immersed!  Coding is hard if you don't get really involved.
+
+
+> Instructor Note: Review independent practice deliverable(s).
+  - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
+  - Recap topic(s) covered in today's lesson.
 > There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
