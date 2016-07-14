@@ -6,7 +6,9 @@ This repository/folder contains all the materials General Assembly supplies for 
 
 ## Value Proposition
 
-JavaScript 101 is a workshop for learning the basics of JavaScript and jQuery. In this hands-on introductory workshop, we will walk through JavaScript's basic capabilities and learn how to add interactivity and functionality to HTML & CSS using jQuery. Building on the foundations students take a hands-on approach to learn JavaScript's relationship to HTML and CSS to create professional, relevant applications.
+Javascript is a dynamic programming language developed with the functionality and web developers in mind. As the foundation of millions of web pages and frameworks constantly being built to compliment it, JavaScript is here to to stay! Come learn the  the basics of using Javascript and jQuery to update the appearance and content of a web page. 
+
+In this hands-on introductory workshop for JavaScript, you’ll learn about the web development community. You’ll also learn how to think programmatically and apply the javascript programming fundamentals necessary to create rich web applications.  In addition, you’ll learn how to incorporate jQuery, a JavaScript framework, to add animations and effects to your website.
 
 Students should be familiar with basic HTML/CSS as well as functions of their computer, such as launching programs, creating folders, copying and pasting objects, formatting text, finding and saving files.
 
