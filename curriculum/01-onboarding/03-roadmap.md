@@ -21,8 +21,8 @@ In order to make sure that students are best prepared for this workshop, we sugg
 
 In order to provide students with continued pathways for growth, we suggest using the following resources to create a custom learning plan, based on your students' goals and interests:
 
-*  DASH (dash.ga.co)
-* Codecademy (codecademy.com)
+* [DASH](dash.ga.co)
+* [Codecademy](codecademy.com)
  
 ---
 
