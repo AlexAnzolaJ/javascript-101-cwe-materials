@@ -90,7 +90,7 @@ The process of going from an idea to a fully developed and launched site is pret
 
 ### Front End vs Back End in More Detail:
 
-Sometimes it can be challenging to describe how the front-end realy differentiates from the back-end. Let's further illustrate the difference between the two.
+Sometimes it can be challenging to describe how the front-end really differentiates from the back-end. Let's further illustrate the difference between the two.
 
 - Front end: everything the user can see and interact with on a site.
 - Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
@@ -484,10 +484,8 @@ Here are the steps to get started:
 ### Part 1
 
 1. When the anchor within #box3 is clicked:  
-
-	a) Slide toggle #box4 
-	
-	b) Fade out #box1 slowly
+	- a) Slide toggle #box4 
+	- b) Fade out #box1 slowly
 
 ### Part 2
 
@@ -496,11 +494,11 @@ Here are the steps to get started:
 Here is a prompt for the deliverable:
 
 1. When the h2 is clicked on: 
- a) Slide up the h2 
- b) Add the snazzy class to the h1
+	- a) Slide up the h2 
+	- b) Add the snazzy class to the h1
 	
 2. When #box1 is clicked on:
-	a) Add the highlight class to h3
+	- a) Add the highlight class to h3
 
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
@@ -532,6 +530,17 @@ if (age > 65) {
 ```
 
 > Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
+
+- We will now transition in to the last part of the jQuery-code-along project. The instructions read:
+
+	Part 3 - Together:
+
+	
+	
+  1. Create a variable and name it 'school'. Set the value of the 	variable equal to the prompt 'Which school you at right now? :)'
+
+  2. Create a conditional statement that says if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' If the user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' If the user enters in anything else change the p tag in the footer to say 'Still the footer!'
+  
 
 
 <a name="conclusion"></a>

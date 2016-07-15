@@ -56,7 +56,7 @@ $('#box1').on('click', function(){
 });
 
 // Part 3 - Together:
-window.onload= function(){
+$(document).ready(function(){
   // 1. Create a variable and name it 'school'. Set the value of the variable equal to the prompt 'Which school you at right now? :)'
   var school = prompt('Which school you at right now? :)');
 
@@ -70,5 +70,5 @@ window.onload= function(){
   } else {
       $('footer p').html('Still the footer!');
   }
-};
+});
 
