@@ -537,9 +537,9 @@ if (age > 65) {
 
 	
 	
-  1. Create a variable and name it 'school'. Set the value of the 	variable equal to the prompt 'Which school you at right now? :)'
+ 1. Create a variable and name it 'school'. Set the value of the 	variable equal to the prompt 'Which school you at right now? :)'
 
-  2. Create a conditional statement that says if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' If the user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' If the user enters in anything else change the p tag in the footer to say 'Still the footer!'
+ 2. Create a conditional statement that says if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' If the user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' If the user enters in anything else change the p tag in the footer to say 'Still the footer!'
   
 
 
