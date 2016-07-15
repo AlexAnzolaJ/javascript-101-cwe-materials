@@ -506,6 +506,8 @@ Here is a prompt for the deliverable:
 <a name="demo6"></a>
 ## Demo: jQuery + Conditionals (10 min)
 
+> Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
+
 If something is true, do one thing. If it is not, do something else. This type of logic or statement is a condition. In JavaScript (and coding in general) you'll need to make comparisons all the time:
 
 - Is a user logged in?
@@ -529,19 +531,18 @@ if (age > 65) {
 
 ```
 
-> Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
+### Part 3 
 
-- We will now transition in to the last part of the jQuery-code-along project. The instructions read:
-
-	Part 3 - Together:
-
+We will now transition in to the last part of the jQuery-code-along project. The instructions read:
 	
 	
-1. Create a variable and name it 'school'. Set the value of the 	variable equal to the prompt 'Which school you at right now? :)'
+1. Create a variable and name it 'school'. Set the value of the variable equal to the prompt 'Which school are you at right now?'
 
-2. Create a conditional statement that says if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' If the user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' If the user enters in anything else change the p tag in the footer to say 'Still the footer!'
+2. Create a conditional statement that says 
+- if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' 
+- if user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' 
+- if user enters in anything else change the p tag in the footer to say 'Still the footer!'
   
-
 
 <a name="conclusion"></a>
 ## Conclusion (5 min)
