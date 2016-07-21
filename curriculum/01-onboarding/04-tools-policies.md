@@ -35,8 +35,6 @@ It is also our experience that students should have laptops with screens of at l
 
 2. If you see bugs, typos, or other elements that need flagging, please file a **Github Issue**. A member of our instructional team will be sure to review and prioritize as needed.
 
-3. If you encounter any other problems not mentioned here, please submit a ticket to our [GA Helpdesk]()
-
 ---
 
 All set? Now it's time to check out the [curriculum materials we provide for this workshop](../02-materials/).
