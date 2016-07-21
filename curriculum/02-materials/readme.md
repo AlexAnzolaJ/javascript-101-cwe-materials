@@ -126,38 +126,41 @@ So what exactly is JavaScript and what is it responsible for? To summarize, Java
 	- modify the behavior of content
 	- create interactions and add functionality
 	- animations
-	- manipulating what we call the DOM
+	- manipulating what we call the *DOM*
 
 ### Let's review the DOM
 
-In order for us to truly understand what JavaScript is and what it is used for, we need to first take a look at the  DOM(Document Object Model). As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM! Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
+In order for us to truly understand what JavaScript is and what it is used for, we need to first take a look at the DOM (Document Object Model). As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM! Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
 > Instructor Note: Students should already have an understanding of the DOM so treat the content below as a mini-review.
 
-The **Document Object Model(DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
+The **Document Object Model (DOM)** is a collection of document nodes that are treated as objects in JavaScript. It is an object model and programming interface for HTML.
 
 ![](assets/dom.jpg)
+
+> Knowledge Check: What is an object model? How does the document object model relate to Javascript?
+> Instructor Note: Discuss and clear up any misconceptions here before moving on.
 
 <a name="ind-practice1"></a>
 ## Independent Practice: Practice Reading JavaScript (15 min)
 
-Let's practice reading some JavaScript using this code [codepen](http://codepen.io/nevan/pen/shtLA).
+Let's practice reading some JavaScript using this [codepen](http://codepen.io/nevan/pen/shtLA).
 
 Visit the codepen together and:
 
-1. Turn to someone next to you and as a team try to figure out on a high level what is happening
-2. With your partner try to make it so that the slow button changes the bulb to yellow
-3. With your partner try to make it so that the go button works
+1. Turn to someone next to you. As a team, try to figure out on a high level: what is happening?
+2. With your partner, try to make it so that the `slow` button changes the bulb to yellow
+3. With your partner, try to make it so that the `go` button works
 
-This exercise is simply to help introduce you to what JavaScript looks like, do not get caught up in all the details just yet!
+This exercise is simply to help introduce you to what JavaScript looks like. Don't get caught up in all the details just yet!
 
->Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to making it so that the slow button changes the bulb to yellow, and the go button works.
+> Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to changing the slow button bulb to yellow, and fixing the go button.
 
 ## Demo: Pseudo Code (5 min)
 
-Before we start writing any Javascript, we'll learn a bit about how to plan out your code by writing pseudocode. What is pseudocode? Well, to put in simple terms, it's a way to 'plan out' your program in plain English before coding it, which will make the coding process infinitely more seamless! It will serve as a detailed yet readable description of what a computer program must do.
+Before we start writing any Javascript, we'll learn a bit about how to plan out your code by writing pseudocode. What is pseudocode? Well, to put in simple terms, it's a way to 'plan out' your program in plain English before coding it. This will make the coding process infinitely more seamless! Pseudocode serves as a detailed yet readable description of what a computer program must do.
 
-Take, for example, a program that lets a player know whether he or she has passed the current level. Pseudo code for this program might look like the following:
+Take, for example, a program that lets a player know whether he or she has passed the current level. Pseudocode for this program might look like the following:
 
 ```js
 
@@ -172,7 +175,9 @@ otherwise
 
 ```
 
-Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudo code must be written, each person's version will likely vary slightly. Indentation is often used to keep statements organized and grouped together.
+Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudocode must be written, each person's version will likely vary slightly. 
+
+Programmers often use indentation to keep statements organized and grouped together.
 
 > **Check**: "Why do you think it is important to plan out your program before coding it?"
 
@@ -180,13 +185,15 @@ Again, the goal is to think through the problem and break it down into simple st
 <a name="ind-practice2"></a>
 ## Independent Practice: Thermostat (10 min)
 
-With a partner, write pseudo code for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
+<details>
+<summary>
+With a partner, write pseudocode for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
 1. Open up sublime
 2. Type in your pseudocode in the text editor
 
-
 Example answer:
+</summary>
 
 ```js
 get targetTemperature
@@ -199,8 +206,9 @@ repeat forever
   if currentTemperature >= targetTemperature,
     turn off heater
 ```
+</details>
 
->Instructor Note: Walk through the problem and have a couple students share what they come up with. At this point students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the logic here.
+> Instructor Note: Walk through the problem and have a few students share what they come up with. At this point, students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the overall logic here.
 
 <a name="demo2"></a>
 ## Demo: Variables and Data Types (10 minutes)
@@ -227,16 +235,21 @@ age = 30;
 
 ```
 
-> **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way, where you do not have to repeat the word var?"
+<details>
+<summary>
+> **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way? How come you don't have to repeat the word `var`?"
 
+</summary>
 > Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
+</details>
 
 ### Data Types
 
 What can be stored in variables? There are three main data types or values that we'll want to learn about here.
 
 **Strings**: groups of characters (either letters, numbers, or special characters like punctuation, spaces, or parentheses). They come in two varieties, 'single-quote' (also sometimes called 'string literals') and "double-quote". Though there are some differences between the two, don't worry about them for now. Strings are typically used to store text for people to read.
-  Examples: ```'hello'```, ```'goodbye'```, ```'moc.liamg@gmail.com'```
+
+Examples: ```'hello'```, ```'goodbye'```, ```'moc.liamg@gmail.com'```
 
 **Numbers**: can be positive, negative, decimals. Examples: ```20, -4.5, 300, 99.99```
 
@@ -273,15 +286,19 @@ typeof 3.45;
 typeof true;
 ```
 
-What data types did we store as the variable? That's right string and numbers. We'll learn about Booleans later in this class.
-
+<details>
+<summary>
+**Check:** What data types did we store as the variable? 
+</summary>
+That's right: string and numbers! We'll also learn about *Booleans* later in this class.
+</details>
 
 <a name="demo3"></a>
 ## Demo: Arithmetic Operators and Assignment Operators (10 min)
 
 > Instructor Note: Discuss arithmetic operators and assignment operators from slides 28-29 with students.
 
-We use operators to work with data in JavaScript. The standard arithmetic operators—which you have been learning since grade school—are supported here, including addition, subtraction, division, and so forth. Check it out:
+We use operators to work with data in JavaScript. The standard arithmetic operators—which you have been learning since grade school are supported here, including addition, subtraction, division, and so forth. Check it out!
 
 ```js
 2 + 4
@@ -297,7 +314,7 @@ We use operators to work with data in JavaScript. The standard arithmetic operat
 => 6
 ```
 
-Values are assigned using =; compound assignment statements, such as += and -=, can also be used:
+Values are assigned using `=` Compound assignment statements, such as `+=` and `-=`, can also be used!
 
 ```js
 var num = 8;
@@ -310,30 +327,47 @@ num -= 6
 => 2
 ```
 
-You can use ++ and -- to increment and decrement by 1, respectively. These can be used as prefix or postfix operators.
+You can use `++` and `--` to increment and decrement by 1, respectively. These can be used as *prefix* or *postfix* operators.
 
-To recap, we have discussed two types of values—or, objects—that store data and offer helpful computation functions.
+**Check:** To recap, we have discussed *two* types of values or objects that store data and offer helpful computation functions.
 
 
 <a name="demo4"></a>
 ## Guided/Independent Practice: Variables (15 min)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project, starter code has been provided. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project. Starter code has been provided! **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
 
-Find the starter code [here](variables/js/main.js)!
+Now it's your turn! Take a look at the starter code [here](variables/js/main.js)!
 
 ### Part 1
-1. Declare a variable with the name "score". Assign it the value 3. (solution: var score = 3;)
-2. Update the value of score. The new value should be 6. (solution: score = 6;)
-3. Use console.log to print out the value of score. (solution: console.log(score);)
+<details>
+<summary>
+- [ ] Declare a variable with the name "score". Assign it the value 3.
+</summary>
+(Solution: `var score = 3;`)
+</details>
+
+<details>
+<summary>
+- [ ] Update the value of score. The new value should be 6. 
+</summary>
+(Solution: `score = 6;`)
+</details>
+
+<details>
+<summary>
+- [ ]Use console.log to print out the value of score. 
+</summary>
+(Solution: `console.log(score);`)
+</details>
 
 ### Part 2
 
 1. Declare a variable with the name "totalAmount". Assign it the value 0.
-2. Update the value of totalAmount. The new value should be 10.
-3. Add five to the totalAmount using the += operator.
-4. Use console.log to print out the value of totalAmount.
+2. Update the value of `totalAmount`. The new value should be 10.
+3. Add five to the `totalAmount` using the `+=` operator.
+4. Use `console.log` to print out the value of `totalAmount`.
 
 <a name="demo3"></a>
 ## Demo: JavaScript in Action (10 min)
@@ -353,7 +387,7 @@ A method in JavaScript is an action that can be performed on an object. We can m
 
 There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings (here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index].  
 
-We might also want to take two strings and combine or concatenate them. Concatenation simply means to take two strings and stick them together using the ```+``` operator like so!
+We might also want to take two strings and combine or *concatenate* them. Concatenation simply means to take two strings and stick them together using the `+` operator, like so!
 
 ```js
 		var book = "Happy";
@@ -362,19 +396,23 @@ We might also want to take two strings and combine or concatenate them. Concaten
 		// Result will be: Happy: Best book ever.
 
 ```
+
 <a name="intro3"></a>
 ## Introduction: jQuery, a JS Library (10 min)
 
-jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web; originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it jQuery instead. jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS.  It makes it faster and easier to write cross-browser JavaScript and  allows us to find elements using CSS-style selectors and then do something to them using jQuery methods.
+jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web. Originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it `jQuery` instead. 
 
-Here's some basic syntactical differences between javascript and jQuery
+jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS. It makes it faster and easier to write cross-browser JavaScript and allows us to find elements using CSS-style selectors, and then do something to them using jQuery methods.
 
-JS
+Here's some basic syntactical differences between javascript and jQuery:
+
+Javascript:
+
 ```js
  document.getElementById('heading').innerHTML = "Your Name";
 ```
 
-jQuery
+jQuery:
 
 ```js
   $('#heading').html('Your Name');
@@ -419,7 +457,7 @@ You manipulate or work with certain elements. For example, ```.addClass``` is a 
 
 ```
 
-In this example you start by selecting the h1 and then you append the method .html which will change the HTML content that is currently in between the opening and closing h1 tags.  
+In this example, you start by selecting the `h1` and then you append the method `.html` which will change the HTML content that is currently between the opening and closing `h1` tags.  
 
 ```js
 
@@ -455,6 +493,7 @@ Here is the prompt for the deliverable:
 
 2. Make the text color of the strong tag within #box2 green (use the ```.css()``` method)
 
+
 **Check:** Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
@@ -470,8 +509,9 @@ $('h1').fadeOut(200);
 
 ```
 
-- Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered.
-- Example:
+Additionally, with jQuery you can add what is called an **event listener**. This means that the browser is waiting for an event to occur, the event can be a mouseover or a scroll, for an action to be triggered.
+
+For example:
 
 ```js
 $('li').on('click', function() {
@@ -480,6 +520,7 @@ $('li').on('click', function() {
 
 ```
 
+**Check:** What is an event listener? What possible use cases can you think of for such a tool?
 
 <a name="guided-practice4"></a>
 ## Guided Practice/Independent Practice: jQuery Codealong Part 2 (10 min)
@@ -510,6 +551,7 @@ Here is a prompt for the deliverable:
 2. When #box1 is clicked on:
 	- a) Add the highlight class to h3
 
+
 > **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
@@ -518,7 +560,9 @@ Here is a prompt for the deliverable:
 
 > Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
 
-If something is true, do one thing. If it is not, do something else. This type of logic or statement is a condition. In JavaScript (and coding in general) you'll need to make comparisons all the time:
+If something is true, do one thing. If it is not, do something else! 
+
+This type of logic or statement is a *condition*. In JavaScript (and coding in general), you'll need to make comparisons all the time:
 
 - Is a user logged in?
 - Has the user chosen three or more colors?
@@ -541,6 +585,8 @@ if (age > 65) {
 
 ```
 
+**Check:** What is a conditional statement? What use cases can you think of for such a tool?
+
 ### Part 3 
 
 We will now transition in to the last part of the jQuery-code-along project. The instructions read:
@@ -556,12 +602,14 @@ We will now transition in to the last part of the jQuery-code-along project. The
 
 <a name="conclusion"></a>
 ## Conclusion (5 min)
+
 So, who needs to know about this stuff? Everyone!  Even if you’re not the one doing the coding, being able to communicate effectively with developers and understand what’s going on behind the scenes of a product is a very important and highly valued skill in today’s job market.  
 
-A couple last things. You are going to get lots of errors…
+A couple of last things. You are going to get lots of errors. Don't get upset! This happens to everyone. Instead, try:
+
 - Google first, ask questions later (but don't be afraid to ask)
-- Stack Overflow is great for this stuff!
-- Get immersed!  Coding is hard if you don't get really involved.
+- [Stack Overflow](#) is great for this stuff!
+- Get immersed!  Coding is hard if you don't get really involved (and practice everyday!).
 
 
 > Instructor Note: Review independent practice deliverable(s).
