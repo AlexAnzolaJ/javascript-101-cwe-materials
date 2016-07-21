@@ -20,9 +20,9 @@ creator:
 ### STUDENT PRE-WORK
 *Before this lesson, you should:*
 
-- Install Sublime Text 3 on your computer.
-- Have Google Chrome on your computer.
-- Complete DASH Project 1.
+- Install [Sublime Text 3](#) on your computer.
+- Have [Google Chrome](#) on your computer.
+- Complete [DASH Project 1](#).
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -30,7 +30,7 @@ creator:
 - Have the starter code ready to go to hand out to students.
 - Have students install Sublime Text 3 on to computer.
 - Write learning objectives on board.
-- Make sure wifi network and password (GA Guest, yellowpencil) is written on board, since students will need to be online to use codepen.io.
+- Make sure wifi network and password (`GA Guest`, `yellowpencil`) is written on board, since students will need to be online to use [codepen.io](#).
 
 
 ### WORKSHOP AGENDA
@@ -55,56 +55,66 @@ creator:
 | 10 min  | [Guided/Independent Practice](#guided-practice3) | jQuery Codealong Part 2 |
 | 10 min  | [Demo-Optional ](#guided-practice3) | jQuery + Conditionals |
 | 5 min  | [Conclusion](#conclusion) | Review + Recap |
+
 ---
+
 <a name="opening"></a>
 ## Opening: Greetings + The GA Experience (10 min)
 
-Did you know that there are over one billion websites that are live today? You're able to reach so many people by creating websites that distribute your ideas in a unique way. In this workshop, we'll be learning the building blocks that will allow you to get creative and bring your ideas to life.
+Did you know that there are over one billion websites that are live today? You're able to reach so many people by creating websites that distribute your ideas in a unique way. In this workshop, we'll be learning about the building blocks that will allow you to get creative and bring your ideas to life.
 
 ### Review Learning Objectives
 
-Let's start off by reviewing the learning objectives. First and foremost, we'll gain an overview of the JavaScript landscape. We'll also get to understand the importance of planning and writing out pseudocode (the actions or logic behind our applications). We'll then write some basic JavaScript code in the Chrome developer console as we learn about data types and variables. We'll also get into learning jQuery to learn how to add animations and effects to our websites.
+Let's start off by reviewing our learning objectives. First and foremost, we'll gain an overview of the JavaScript landscape. We'll also get to understand the importance of planning and writing out pseudocode (the actions or logic behind our applications). We'll then write some basic JavaScript code in our Chrome developer consoles as we learn about data types and variables. We'll also get into learning jQuery to see how we can add animations and effects to our websites.
 
 ### Peer Introductions
 
->Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?."
+>Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?"
 
 ### Materials
 
 >Instructor Note: **You can distribute the starter code here to your class.**
+
 ***
 
 <a name="intro1"></a>
 ## Introduction: Web Production Workflow (10 min)
 
-> Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below. When applicable,  ask students to define, explain, or recall any **specific** elements relating to the current topic.
+> Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below.
 
-The process of going from an idea to a fully developed and launched site is pretty cool! However, there are many components to building a website that allows for the type of functionality most clients seek today such as in an e-commerce website. A "full stack" developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look to help us understand the web production workflow.
+The process of going from an idea to a fully developed and launched site is pretty cool! However, there are many components to building a website that allows for the type of functionality most clients seek today, like an e-commerce website. A "full stack" developer is someone who can work on both the back-end and front-end of a website. But what exactly do those terms mean? Let's take a closer look to help us understand the web production workflow.
 
 ![](assets/wp.png)
 
 - UX: user experience, UX designers try to make it as easy as possible for people to use a webpage while achieving the purpose of the webpage.
-- Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families...).
-- Front End: front end developers bring the designs to life with HTML, CSS, and JS.
-- Back End: back end developers give the website a "memory" with databases, authenticating users etc.
+- Design: designers take the wireframes created by the UX team and make them pretty (think about color palettes, font families, etc).
+- Front End: front end developers bring the designs to life with HTML, CSS, and our favorite, Javascript!
+- Back End: back end developers give the website a "memory" with databases, user authentication, and more.
+
+> Knowledge Check: Prompt students to define the terms and their differences. What questions do they have? Which leads into...
 
 ### Front End vs Back End in More Detail:
 
 Sometimes it can be challenging to describe how the front-end really differentiates from the back-end. Let's further illustrate the difference between the two.
 
-- Front end: everything the user can see and interact with on a site.
-- Back end:  involves the database (like a virtual spreadsheet that stores data), the server (machine/computer that hosts web files), and application logic that the user does not see (such as validation of username and password entered).
+- Front End: everything the user can *see* and *interact with* on a site.
+- Back End:  everything the user does not see, but is *affected by*. This involves the database (which is basically a virtual spreadsheet that stores data), the server (a machine/computer that hosts web files), and any application logic (such as the validation of their username and password).
 
-We'll mostly be focusing on JavaScript as a front end language in this lesson. So let's break down the THREE front end languages - HTML, CSS, and JavaScript.
+We'll mostly be focusing on JavaScript as a **front end language** in this lesson. So let's break down the THREE front end languages - HTML, CSS, and JavaScript.
 
 - HTML = noun (responsible for the 'things' on the page, e.g image vs paragraph)
 - CSS = adjective (responsible for styles like color or font family)
 - JavaScript = verb (responsible for behaviors, like drop-down menus)
 
+> Instructor Note: Some students may ask about Javascript as a back end language. Table these questions for now and return to them at the end of the session.
+
 ### Activity
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
-- Which parts of the site are front end and which is back end?
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). 
+
+Looking at these sites, answer the following questions:
+- Which parts of the site are the front end? 
+- Which parts of the site are the back end?
 
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
