@@ -20,9 +20,9 @@ creator:
 ### STUDENT PRE-WORK
 *Before this lesson, you should:*
 
-- Install Sublime Text 3 on your computer.
-- Have Google Chrome on your computer.
-- Complete DASH Project 1.
+- Install [Sublime Text 3](https://www.sublimetext.com/3) on your computer.
+- Have [Google Chrome](https://www.google.com/chrome/browser/desktop/) on your computer.
+- Complete [DASH Project 1](https://dash.generalassemb.ly/projects/annas-website-1).
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -103,8 +103,11 @@ We'll mostly be focusing on JavaScript as a front end language in this lesson. S
 
 ### Activity
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). Answer the following question:
-- Which parts of the site are front end and which is back end?
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. 
+
+Turn to the person next to you and together navigate some more through [lyft.com](https://www.lyft.com/). You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). With your partner discuss the following:
+
+- Which parts of the site are front end and which are back end?
 
 >**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
