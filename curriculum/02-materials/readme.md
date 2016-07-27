@@ -334,16 +334,20 @@ You can use `++` and `--` to increment and decrement by 1, respectively. These c
 <a name="demo4"></a>
 ## Guided/Independent Practice: Variables (15 mins)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project. Starter code has been provided! **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
+> Instructor Note: First, share this link with students and ask them to click on "View Raw" to download the starter code: https://github.com/generalassembly-studio/javascript-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/starter-code.zip.  Be sure to walk students through opening the starter code.  During this demo you will be walking students through Part 1 of the "Variables" project. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
 
-Now it's your turn! Take a look at the starter code [here](starter-code/variables-code-along)!
+Now it's your turn! Let's open the starter code in Sublime, located [here](https://github.com/generalassembly-studio/javascript-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/starter-code.zip).
+
+Try part one with me!
 
 #### Part 1
 
 - Declare a variable with the name "score". Assign it the value 3.  (Solution: `var score = 3;`)
 - Update the value of score. The new value should be 6. (Solution: `score = 6;`)
 - Use console.log to print out the value of score. (Solution: `console.log(score);`)
+
+Now, try the rest on your own.
 
 #### Part 2
 
@@ -451,12 +455,12 @@ $('h1').html('Content to insert goes here');
 <a name="guided-practice3"></a>
 ## Guided/Independent Practice: jQuery Codealong Part 1 (15 mins)
 
-> Instructor Note: Make sure your students have the [starter code](starter-code) that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the [starter code](starter-code) that was distributed earlier in class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
-	- Open the entire project folder in editor
-	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
+	- In Sublime, open the `jquery-code-along` project folder from starter code distributed earlier
+	- Identify and add the script tags linking your external JavaScript file and linking the jQuery library
 
 #### Part 1
 
@@ -508,7 +512,7 @@ $('li').on('click', function() {
 <a name="guided-practice4"></a>
 ## Guided Practice/Independent Practice: jQuery Codealong Part 2 (10 mins)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
