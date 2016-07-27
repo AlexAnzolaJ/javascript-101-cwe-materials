@@ -362,12 +362,20 @@ Now it's your turn! Take a look at the starter code [here](variables/js/main.js)
 (Solution: `console.log(score);`)
 </details>
 
+<details>
+<summary>
+- [ ]Open up the index.html file in the browser Google Chrome. 
+</summary>
+(Solution: `Since students are using Sublime Text 3, simply right click on the index.html file and select Open in Browser`)
+</details>
+
 ### Part 2
 
 1. Declare a variable with the name "totalAmount". Assign it the value 0.
 2. Update the value of `totalAmount`. The new value should be 10.
 3. Add five to the `totalAmount` using the `+=` operator.
 4. Use `console.log` to print out the value of `totalAmount`.
+5. Open up the index.html file in the browser Google Chrome. 
 
 <a name="demo3"></a>
 ## Demo: JavaScript in Action (10 min)
