@@ -140,7 +140,7 @@ The **Document Object Model (DOM)** is a collection of document nodes that are t
 
 ![](assets/dom.jpg)
 
-> Knowledge Check: What is an object model? How does the document object model relate to Javascript?
+> Check: What is an object model? How does the document object model relate to Javascript?
 > Instructor Note: Discuss and clear up any misconceptions here before moving on.
 
 <a name="ind-practice1"></a>
@@ -337,7 +337,7 @@ You can use `++` and `--` to increment and decrement by 1, respectively. These c
 > Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project. Starter code has been provided! **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
 
-Now it's your turn! Take a look at the starter code [here](variables-code-along/js/main.js)!
+Now it's your turn! Take a look at the starter code [here](starter-code/variables-code-along)!
 
 #### Part 1
 
@@ -451,7 +451,7 @@ $('h1').html('Content to insert goes here');
 <a name="guided-practice3"></a>
 ## Guided/Independent Practice: jQuery Codealong Part 1 (15 mins)
 
-> Instructor Note: Make sure your students have the starter code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the [starter code](starter-code) that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
@@ -568,7 +568,7 @@ if (age > 65) {
 
 ```
 
->Check: What is a conditional statement? What use cases can you think of for such a tool?
+> Check: What is a conditional statement? What use cases can you think of for such a tool?
 
 #### Part 3
 
