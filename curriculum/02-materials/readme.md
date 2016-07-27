@@ -595,7 +595,7 @@ A couple of last things. You are going to get lots of errors. Don't get upset! T
 - Get immersed!  Coding is hard if you don't get really involved (and practice everyday!).
 
 
-> Instructor Note: Review independent practice deliverable(s).
+> Instructor Note: Review independent practice deliverable(s) and distribute a link to the hand out
   - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
   - Recap topic(s) covered in today's lesson.
 > There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
