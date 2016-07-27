@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Workshop: Slide Deck
 
-- Here is [a link to the Google slide deck and student handout provided for this workshop](https://drive.google.com/drive/u/0/folders/0B0TTz0OuJ8siZzZxMlpfS3l4a2c).
+- [Here](https://drive.google.com/drive/u/0/folders/0B0TTz0OuJ8siZzZxMlpfS3l4a2c) is a link to the slide deck and student one-page handout provided for this workshop (both available in PDF and keynote format).
 
 > Note: The slide deck and handout are provided as a content baseline. You are encouraged to create a local copy in order to make changes or modifications as you see fit.
 
