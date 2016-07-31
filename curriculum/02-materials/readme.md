@@ -346,19 +346,12 @@ Try part one with me!
 - Declare a variable with the name "score". Assign it the value 3.  (Solution: `var score = 3;`)
 - Update the value of score. The new value should be 6. (Solution: `score = 6;`)
 - Use console.log to print out the value of score. (Solution: `console.log(score);`)
-
-<details>
-<summary>
-- [ ]Open up the index.html file in the browser Google Chrome. 
-</summary>
-(Solution: `Since students are using Sublime Text 3, simply right click on the index.html file and select Open in Browser`)
-</details>
+- Open up the index.html file in the browser Google Chrome. (Solution: `Since you are using Sublime Text 3, simply right click on the index.html file and select Open in Browser`)
 
 ### Part 2
 
-Now, try the rest on your own.
+Now, try the rest on your own:
 
-#### Part 2
 
 1. Declare a variable with the name "totalAmount". Assign it the value 0.
 2. Update the value of `totalAmount`. The new value should be 10.
