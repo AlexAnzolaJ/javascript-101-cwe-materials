@@ -20,9 +20,9 @@ creator:
 ### STUDENT PRE-WORK
 *Before this lesson, you should:*
 
-- Install [Sublime Text 3](#) on your computer.
-- Have [Google Chrome](#) on your computer.
-- Complete [DASH Project 1](#).
+- Install [Sublime Text 3](https://www.sublimetext.com/3) on your computer.
+- Have [Google Chrome](https://www.google.com/chrome/browser/desktop/) on your computer.
+- Complete [DASH Project 1](https://dash.generalassemb.ly/projects/annas-website-1).
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -30,10 +30,10 @@ creator:
 - Have the starter code ready to go to hand out to students.
 - Have students install Sublime Text 3 on to computer.
 - Write learning objectives on board.
-- Make sure wifi network and password (`GA Guest`, `yellowpencil`) is written on board, since students will need to be online to use [codepen.io](#).
+- Make sure wifi network and password (`GA Guest`, `yellowpencil`) is written on board, since students will need to be online to use [codepen.io](http://codepen.io/).
 
 
-### WORKSHOP AGENDA
+### LESSON GUIDE
 
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
@@ -59,26 +59,26 @@ creator:
 ---
 
 <a name="opening"></a>
-## Opening: Greetings + The GA Experience (10 min)
+## Opening: Greetings + The GA Experience (10 mins)
 
 Did you know that there are over one billion websites that are live today? You're able to reach so many people by creating websites that distribute your ideas in a unique way. In this workshop, we'll be learning about the building blocks that will allow you to get creative and bring your ideas to life.
 
-### Review Learning Objectives
+#### Review Learning Objectives
 
 Let's start off by reviewing our learning objectives. First and foremost, we'll gain an overview of the JavaScript landscape. We'll also get to understand the importance of planning and writing out pseudocode (the actions or logic behind our applications). We'll then write some basic JavaScript code in our Chrome developer consoles as we learn about data types and variables. We'll also get into learning jQuery to see how we can add animations and effects to our websites.
 
-### Peer Introductions
+#### Peer Introductions
 
 >Instructor Note: Ask each student to share their first name and answer the following question: "What brought you here tonight?"
 
-### Materials
+#### Materials
 
 >Instructor Note: **You can distribute the starter code here to your class.**
 
 ***
 
 <a name="intro1"></a>
-## Introduction: Web Production Workflow (10 min)
+## Introduction: Web Production Workflow (10 mins)
 
 > Instructor Note: In the following section, students will learn about the differences between front and back end languages. Discuss the topics below.
 
@@ -93,7 +93,7 @@ The process of going from an idea to a fully developed and launched site is pret
 
 > Knowledge Check: Prompt students to define the terms and their differences. What questions do they have? Which leads into...
 
-### Front End vs Back End in More Detail:
+#### Front End vs Back End in More Detail:
 
 Sometimes it can be challenging to describe how the front-end really differentiates from the back-end. Let's further illustrate the difference between the two.
 
@@ -108,18 +108,20 @@ We'll mostly be focusing on JavaScript as a **front end language** in this lesso
 
 > Instructor Note: Some students may ask about Javascript as a back end language. Table these questions for now and return to them at the end of the session.
 
-### Activity
+#### Activity
 
-Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action. You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). 
 
-Looking at these sites, answer the following questions:
-- Which parts of the site are the front end? 
-- Which parts of the site are the back end?
+Let's go to [lyft.com](https://www.lyft.com/). When you hover over the word “Explore” in the navigation menu, or notice the dynamically looping hero images, you are seeing JavaScript in action.
 
->**Check:** In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
+Turn to the person next to you and together navigate some more through [lyft.com](https://www.lyft.com/). You can also choose another website like [yelp.com](http://www.yelp.com/) or [airbnb.com](https://www.airbnb.com/). With your partner discuss the following:
+
+- Which parts of the site are front end and which are back end?
+
+
+>Check: In summary, and in your own words, how would you describe how the front end is different from the back end of a website?
 
 <a name="intro2"></a>
-## Introduction: What is JavaScript? (10 min)
+## Introduction: What is JavaScript? (10 mins)
 
 So what exactly is JavaScript and what is it responsible for? To summarize, JavaScript can do a lot, including:
 
@@ -128,7 +130,7 @@ So what exactly is JavaScript and what is it responsible for? To summarize, Java
 	- animations
 	- manipulating what we call the *DOM*
 
-### Let's review the DOM
+#### Let's review the DOM
 
 In order for us to truly understand what JavaScript is and what it is used for, we need to first take a look at the DOM (Document Object Model). As we pointed out earlier, JavaScript is responsible for the behavior of content, interactions on the page, animations on the page and manipulating the DOM! Figuring out the DOM might sound intimidating at first, but not to worry! We've broken it down further here to illustrate how it's related to JavaScript.
 
@@ -138,11 +140,11 @@ The **Document Object Model (DOM)** is a collection of document nodes that are t
 
 ![](assets/dom.jpg)
 
-> Knowledge Check: What is an object model? How does the document object model relate to Javascript?
+> Check: What is an object model? How does the document object model relate to Javascript?
 > Instructor Note: Discuss and clear up any misconceptions here before moving on.
 
 <a name="ind-practice1"></a>
-## Independent Practice: Practice Reading JavaScript (15 min)
+## Independent Practice: Practice Reading JavaScript (15 mins)
 
 Let's practice reading some JavaScript using this [codepen](http://codepen.io/nevan/pen/shtLA).
 
@@ -156,7 +158,7 @@ This exercise is simply to help introduce you to what JavaScript looks like. Don
 
 > Instructor Note: When students finish, have one or two pairs share out their understanding of what is going on and what the JavaScript is doing. Then ask another pair to share their solution to changing the slow button bulb to yellow, and fixing the go button.
 
-## Demo: Pseudo Code (5 min)
+## Demo: Pseudo Code (5 mins)
 
 Before we start writing any Javascript, we'll learn a bit about how to plan out your code by writing pseudocode. What is pseudocode? Well, to put in simple terms, it's a way to 'plan out' your program in plain English before coding it. This will make the coding process infinitely more seamless! Pseudocode serves as a detailed yet readable description of what a computer program must do.
 
@@ -175,25 +177,24 @@ otherwise
 
 ```
 
-Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudocode must be written, each person's version will likely vary slightly. 
+Again, the goal is to think through the problem and break it down into simple steps, which can then be written out in code. Since there are no formal rules as to how pseudocode must be written, each person's version will likely vary slightly.
 
 Programmers often use indentation to keep statements organized and grouped together.
 
-> **Check**: "Why do you think it is important to plan out your program before coding it?"
+> Check: "Why do you think it is important to plan out your program before coding it?"
 
 
 <a name="ind-practice2"></a>
-## Independent Practice: Thermostat (10 min)
+## Independent Practice: Thermostat (10 mins)
 
-<details>
-<summary>
+
 With a partner, write pseudocode for an application that would monitor the room temperature and adjust it so the room remains at a certain temperature.
 
 1. Open up sublime
 2. Type in your pseudocode in the text editor
 
 Example answer:
-</summary>
+
 
 ```js
 get targetTemperature
@@ -206,7 +207,7 @@ repeat forever
   if currentTemperature >= targetTemperature,
     turn off heater
 ```
-</details>
+
 
 > Instructor Note: Walk through the problem and have a few students share what they come up with. At this point, students might not have the best idea of how to name variables in the pseudocode, but that's okay! Focus on the overall logic here.
 
@@ -215,7 +216,7 @@ repeat forever
 
 Now that we've learned a bit about pseudocode, let's begin to code! The first step to learning the fundamentals of JS involves learning to tell our program to remember (store) values. This helps us use them later on!
 
-### Variables
+#### Variables
 
 The 'container' we use to store a value is called a **variable**. Remember these properties of a variable:
 - A variable has a **name** and a **value**.
@@ -235,15 +236,14 @@ age = 30;
 
 ```
 
-<details>
-<summary>
-> **Check**: "If we keep going with the analogy of a 'container' or 'box', why does it work this way? How come you don't have to repeat the word `var`?"
 
-</summary>
+> Check: "If we keep going with the analogy of a 'container' or 'box', why does it work this way? How come you don't have to repeat the word `var`?"
+
+
 > Answer: When you declare a variable, you create the box and you can store a value in there. When you want to swap out that value for another one, the box already exists.
 </details>
 
-### Data Types
+#### Data Types
 
 What can be stored in variables? There are three main data types or values that we'll want to learn about here.
 
@@ -286,15 +286,14 @@ typeof 3.45;
 typeof true;
 ```
 
-<details>
-<summary>
-**Check:** What data types did we store as the variable? 
-</summary>
+
+> Check: What data types did we store as the variable?
+
 That's right: string and numbers! We'll also learn about *Booleans* later in this class.
-</details>
+
 
 <a name="demo3"></a>
-## Demo: Arithmetic Operators and Assignment Operators (10 min)
+## Demo: Arithmetic Operators and Assignment Operators (10 mins)
 
 > Instructor Note: Discuss arithmetic operators and assignment operators from slides 28-29 with students.
 
@@ -329,38 +328,24 @@ num -= 6
 
 You can use `++` and `--` to increment and decrement by 1, respectively. These can be used as *prefix* or *postfix* operators.
 
-**Check:** To recap, we have discussed *two* types of values or objects that store data and offer helpful computation functions.
+>Check: To recap, we have discussed *two* types of values or objects that store data and offer helpful computation functions.
 
 
 <a name="demo4"></a>
-## Guided/Independent Practice: Variables (15 min)
+## Guided/Independent Practice: Variables (15 mins)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. During this demo you will be walking students through Part 1 of the "Variables" project. Starter code has been provided! **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
+> Instructor Note: First, share this link with students and ask them to click on "View Raw" to download the starter code: https://github.com/generalassembly-studio/javascript-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/starter-code.zip.  Be sure to walk students through opening the starter code.  During this demo you will be walking students through Part 1 of the "Variables" project. **Students will complete Part 2 on their own.** Students should type in their answers directly into the ```main.js``` file and use the console to test their answers.
 
 
-Now it's your turn! Take a look at the starter code [here](variables/js/main.js)!
+Now it's your turn! Let's open the starter code in Sublime, located [here](https://github.com/generalassembly-studio/javascript-101-cwe-materials/blob/master/curriculum/02-materials/starter-code/starter-code.zip).
 
-### Part 1
-<details>
-<summary>
-- [ ] Declare a variable with the name "score". Assign it the value 3.
-</summary>
-(Solution: `var score = 3;`)
-</details>
+Try part one with me!
 
-<details>
-<summary>
-- [ ] Update the value of score. The new value should be 6. 
-</summary>
-(Solution: `score = 6;`)
-</details>
+#### Part 1
 
-<details>
-<summary>
-- [ ]Use console.log to print out the value of score. 
-</summary>
-(Solution: `console.log(score);`)
-</details>
+- Declare a variable with the name "score". Assign it the value 3.  (Solution: `var score = 3;`)
+- Update the value of score. The new value should be 6. (Solution: `score = 6;`)
+- Use console.log to print out the value of score. (Solution: `console.log(score);`)
 
 <details>
 <summary>
@@ -371,6 +356,10 @@ Now it's your turn! Take a look at the starter code [here](variables/js/main.js)
 
 ### Part 2
 
+Now, try the rest on your own.
+
+#### Part 2
+
 1. Declare a variable with the name "totalAmount". Assign it the value 0.
 2. Update the value of `totalAmount`. The new value should be 10.
 3. Add five to the `totalAmount` using the `+=` operator.
@@ -378,7 +367,7 @@ Now it's your turn! Take a look at the starter code [here](variables/js/main.js)
 5. Open up the index.html file in the browser Google Chrome. 
 
 <a name="demo3"></a>
-## Demo: JavaScript in Action (10 min)
+## Demo: JavaScript in Action (10 mins)
 
 > Instructor Note: In this section you will be explaining on a high level what a JavaScript method is and how concatenation works. Go over slides 32-33.
 
@@ -393,7 +382,7 @@ A method in JavaScript is an action that can be performed on an object. We can m
 		// hello world
 ```
 
-There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings (here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index].  
+There are a lot more methods in JavaScript. You can find a whole list of methods and properties for strings [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index).  
 
 We might also want to take two strings and combine or *concatenate* them. Concatenation simply means to take two strings and stick them together using the `+` operator, like so!
 
@@ -406,9 +395,9 @@ We might also want to take two strings and combine or *concatenate* them. Concat
 ```
 
 <a name="intro3"></a>
-## Introduction: jQuery, a JS Library (10 min)
+## Introduction: jQuery, a JS Library (10 mins)
 
-jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web. Originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it `jQuery` instead. 
+jQuery is an open-source project that was released in 2006, and it's currently the most widely used JavaScript library on the web. Originally, it was going to be called "JSelect", but the domain name "JSelect.com" was taken, so its creator, John Resig, decided to call it `jQuery` instead.
 
 jQuery allows us to query (i.e. select elements from) the DOM using the exact same selector syntax that we've used in CSS. It makes it faster and easier to write cross-browser JavaScript and allows us to find elements using CSS-style selectors, and then do something to them using jQuery methods.
 
@@ -427,7 +416,7 @@ jQuery:
 
 ```
 
-### Loading jQuery
+#### Loading jQuery
 
 jQuery is a javascript file, but before you start using jQuery, you'll need to include it in our html page. Let's download the compressed version [online](https://jquery.com/download/). Alternatively, you can link to the jQuery file in the ```<script>``` tag in your HTML like so:
 
@@ -441,7 +430,7 @@ jQuery is a javascript file, but before you start using jQuery, you'll need to i
 
 ```
 
-### How Does jQuery Work?
+#### How Does jQuery Work?
 
 To reiterate, here are some things jQuery can do:
 
@@ -474,16 +463,16 @@ $('h1').html('Content to insert goes here');
 ```
 
 <a name="guided-practice3"></a>
-## Guided/Independent Practice: jQuery Codealong Part 1 (15 min)
+## Guided/Independent Practice: jQuery Codealong Part 1 (15 mins)
 
-> Instructor Note: Make sure your students have the starter code that was distributed in the beginning of class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the [starter code](starter-code) that was distributed earlier in class. Ask students to follow along as you complete the "Together" piece of Part 1 in the jquery_ code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
-	- Open the entire project folder in editor
-	- Identity the script tags linking your external JavaScript file and linking the jQuery library have already been added
+	- In Sublime, open the `jquery-code-along` project folder from starter code distributed earlier
+	- Identify and add the script tags linking your external JavaScript file and linking the jQuery library
 
-### Part 1
+#### Part 1
 
 1. Remove the highlight class from #box2 (use the ```.removeClass()``` method)
 
@@ -491,7 +480,7 @@ Here are the steps to get started:
 
 <a name="ind-practice"></a>
 
-### Part 2
+#### Part 2
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
@@ -502,12 +491,12 @@ Here is the prompt for the deliverable:
 2. Make the text color of the strong tag within #box2 green (use the ```.css()``` method)
 
 
-**Check:** Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
+>Check: Were you able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
 
 <a name="demo"></a>
-## Demo: jQuery Effects and Animations (10 min)
+## Demo: jQuery Effects and Animations (10 mins)
 
 - With jQuery you can also add effects and animations.
 - Example:
@@ -528,47 +517,47 @@ $('li').on('click', function() {
 
 ```
 
-**Check:** What is an event listener? What possible use cases can you think of for such a tool?
+> Check: What is an event listener? What possible use cases can you think of for such a tool?
 
 <a name="guided-practice4"></a>
-## Guided Practice/Independent Practice: jQuery Codealong Part 2 (10 min)
+## Guided Practice/Independent Practice: jQuery Codealong Part 2 (10 mins)
 
-> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_ code_along project. Take them through the workflow:
+> Instructor Note: Make sure your students have the starter and solution code that was distributed in the beginning of class. Ask students to watch you as you complete the "Together" piece of Part 2 in the jquery_code_along project. Take them through the workflow:
 
 Here are the steps to get started:
 
 	- Open the entire project folder in editor (if closed)
 	- Type out the solution as students watch you:
 
-### Part 1
+#### Part 1
 
 1. When the anchor within #box3 is clicked:  
-	- a) Slide toggle #box4 
+	- a) Slide toggle #box4
 	- b) Fade out #box1 slowly
 
-### Part 2
+#### Part 2
 
 > Instructor Note: This can be a pair programming activity or done independently.
 
 Here is a prompt for the deliverable:
 
-1. When the h2 is clicked on: 
-	- a) Slide up the h2 
+1. When the h2 is clicked on:
+	- a) Slide up the h2
 	- b) Add the snazzy class to the h1
-	
+
 2. When #box1 is clicked on:
 	- a) Add the highlight class to h3
 
 
-> **Check:** Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
+> Check: Were students able to create the desired deliverable(s)? Did it meet all necessary requirements / constraints?
 
 
 <a name="demo6"></a>
-## Demo: jQuery + Conditionals (10 min)
+## Demo: jQuery + Conditionals (10 mins)
 
 > Instructor Notes: If time permits, go through conditionals in more detail in slides 54 - 63.
 
-If something is true, do one thing. If it is not, do something else! 
+If something is true, do one thing. If it is not, do something else!
 
 This type of logic or statement is a *condition*. In JavaScript (and coding in general), you'll need to make comparisons all the time:
 
@@ -593,34 +582,34 @@ if (age > 65) {
 
 ```
 
-**Check:** What is a conditional statement? What use cases can you think of for such a tool?
+> Check: What is a conditional statement? What use cases can you think of for such a tool?
 
-### Part 3 
+#### Part 3
 
 We will now transition in to the last part of the jQuery-code-along project. The instructions read:
-	
-	
+
+
 1. Create a variable and name it 'school'. Set the value of the variable equal to the prompt 'Which school are you at right now?'
 
 2. Create a conditional statement where
-	- if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!' 
-	- if user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!' 
+	- if the value entered in to the prompt is equal to 'General Assembly', change the p tag in the footer to say 'Thanks for stopping by General Assembly!'
+	- if user enters 'GA' change the p tag in the footer to say 'Thanks for stopping by GA!'
 	- if user enters in anything else change the p tag in the footer to say 'Still the footer!'
-  
+
 
 <a name="conclusion"></a>
-## Conclusion (5 min)
+## Conclusion (5 mins)
 
 So, who needs to know about this stuff? Everyone!  Even if you’re not the one doing the coding, being able to communicate effectively with developers and understand what’s going on behind the scenes of a product is a very important and highly valued skill in today’s job market.  
 
 A couple of last things. You are going to get lots of errors. Don't get upset! This happens to everyone. Instead, try:
 
 - Google first, ask questions later (but don't be afraid to ask)
-- [Stack Overflow](#) is great for this stuff!
+- [Stack Overflow](http://stackoverflow.com) is great for this stuff!
 - Get immersed!  Coding is hard if you don't get really involved (and practice everyday!).
 
 
-> Instructor Note: Review independent practice deliverable(s).
+> Instructor Note: Review independent practice deliverable(s) and distribute a link to the hand out
   - Go over the last slides which include a discussion on who needs to know the content covered in this class. If time permits you can cover what students can do after class or you can just let them know that they can reference the last couple of slides to find out.
   - Recap topic(s) covered in today's lesson.
 > There are a few listed in the slides, but feel free to remove these slides, change them, or just tell students that they are there for their reference.
