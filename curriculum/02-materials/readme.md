@@ -341,7 +341,7 @@ Now it's your turn! Let's open the starter code in Sublime, located [here](https
 
 Try part one with me!
 
-#### Part 1
+### Part 1
 
 - Declare a variable with the name "score". Assign it the value 3.  (Solution: `var score = 3;`)
 - Update the value of score. The new value should be 6. (Solution: `score = 6;`)
